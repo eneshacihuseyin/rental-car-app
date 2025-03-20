@@ -1,12 +1,12 @@
 import { LuEarth } from 'react-icons/lu';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button.jsx';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { useLanguage } from '@/components/language-provider.jsx';
+} from '@/components/ui/dropdown-menu.jsx';
+import { useLanguage } from '@/components/ui/language-provider.jsx';
 import { useTranslation } from 'react-i18next';
 
 export default function LanguageToggle() {

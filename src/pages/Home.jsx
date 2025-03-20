@@ -4,7 +4,7 @@ import Hero from '@/layouts/hero.jsx';
 function Home() {
   return (
     <div>
-      <Hero></Hero>
+      <Hero />
     </div>
   );
 }

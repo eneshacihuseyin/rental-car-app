@@ -1,11 +1,11 @@
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/ui/button.jsx';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from '@/components/ui/dropdown-menu';
-import { useTheme } from '@/components/theme-provider';
+} from '@/components/ui/dropdown-menu.jsx';
+import { useTheme } from '@/components/ui/theme-provider.jsx';
 import { LuMoon, LuSun } from 'react-icons/lu';
 
 export default function ThemeToggle() {

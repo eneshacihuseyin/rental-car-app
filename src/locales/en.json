@@ -1,0 +1,17 @@
+{
+  "home": {
+    "header": {
+      "login": "Login",
+      "vehicles": "Vehicles",
+      "signup": "Sign Up",
+      "theme": {
+        "light": "Light",
+        "dark": "Dark"
+      }
+    },
+    "hero": {
+      "title": "The Easiest Way to Hit the Road",
+      "text": "Easily find the most suitable car rental options. Reliable vehicles, flexible durations and affordable prices. Hit the road now!"
+    }
+  }
+}

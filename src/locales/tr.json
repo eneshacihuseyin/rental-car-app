@@ -1,0 +1,17 @@
+{
+  "home": {
+    "header": {
+      "login": "Giriş Yap",
+      "vehicles": "Araçlar",
+      "signup": "Üye Ol",
+      "theme": {
+        "light": "Açık",
+        "dark": "Koyu"
+      }
+    },
+    "hero": {
+      "title": "Yola Çıkmanın En Kolay Yolu",
+      "text": "En uygun araç kiralama seçeneklerini kolayca bulun. Güvenilir araçlar, esnek süreler ve uygun fiyatlarla hemen yola çıkın!"
+    }
+  }
+}

@@ -12,6 +12,16 @@
     "hero": {
       "title": "The Easiest Way to Hit the Road",
       "text": "Easily find the most suitable car rental options. Reliable vehicles, flexible durations and affordable prices. Hit the road now!"
+    },
+    "features": {
+      "text1": "24/7 roadside assistance",
+      "text2": "Insured and safe vehicles",
+      "text3": "Affordable price guarantee"
+    },
+    "testimonials": {
+      "comment1": "\"The car rental process was super easy, no hassle at all. Everything went smoothly during the trip too. The car was clean and actually better than I expected. Customer service was really helpful as well. I’d definitely rent again with peace of mind.\"",
+      "comment2": "\"The rental process was quick and felt really safe. When I had an issue on the road, the 24/7 support line helped me right away, so I wasn’t left stranded. I also really liked the electric car options. Thanks a lot!\"",
+      "comment3": "\"This was my first time renting, and everything was super easy. The car was delivered on time, clean, and well-maintained. The staff was really friendly. I won’t look anywhere else next time.\""
     }
   }
 }

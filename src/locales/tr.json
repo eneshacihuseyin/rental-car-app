@@ -12,6 +12,16 @@
     "hero": {
       "title": "Yola Çıkmanın En Kolay Yolu",
       "text": "En uygun araç kiralama seçeneklerini kolayca bulun. Güvenilir araçlar, esnek süreler ve uygun fiyatlarla hemen yola çıkın!"
+    },
+    "features": {
+      "text1": "7/24 yol yardım desteği",
+      "text2": "Sigortalı ve güvenli araçlar",
+      "text3": "Uygun fiyat garantisi"
+    },
+    "testimonials": {
+      "comment1": "\"Araç kiralama süreci çok kolaydı, hiç uğraşmadım. Yol boyunca da her şey sorunsuz geçti. Araç temizdi ve beklediğimden iyiydi. Müşteri hizmetleri de gerçekten yardımcı oldu. Gönül rahatlığıyla tekrar kiralarım.\"",
+      "comment2": "\"Hızlı ve güvenli bir şekilde araç kiraladım. Yolda kaldığımda 7/24 destek hattı sayesinde hemen yardımcı oldular, hiç mağdur olmadım. Elektrikli araç seçenekleri de gerçekten hoşuma gitti. Teşekkür ederim!\"",
+      "comment3": "\"İlk kez kiraladım ve her şey çok kolaydı. Araç zamanında teslim edildi, temiz ve bakımlıydı. Personel çok güler yüzlüydü. Bundan sonra başka yere bakmam.\""
     }
   }
 }

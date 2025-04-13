@@ -22,7 +22,7 @@ function Hero() {
   return (
     <div className=" select-none">
       <div
-        className={`header fixed ${scrolled ? 'bg-background shadow-md' : 'bg-transparent'} top-0 left-0 flex justify-between px-[2vw] items-center right-0 h-[10vh] transition-colors duration-300`}
+        className={`header fixed ${scrolled ? 'bg-background shadow-md' : 'bg-transparent'} top-0 left-0 flex z-[1000] justify-between px-[2vw] items-center right-0 h-[10vh] transition-colors duration-300`}
       >
         <div className="left flex-[1]">
           <Link to="/" className="h-full w-fit flex gap-[1vw] items-center">

@@ -19,7 +19,7 @@ export default function LanguageToggle() {
           <LuEarth className="h-[1.2rem] w-[1.2rem]" />
         </Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent align="center">
+      <DropdownMenuContent align="center" className="z-[1000]">
         <DropdownMenuItem
           onClick={() => {
             setLanguage('en');

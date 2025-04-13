@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-
+import { Rating } from '@mui/material';
+import StarBorderIcon from '@mui/icons-material/StarBorder';
 function Testimonials() {
   const { t } = useTranslation();
 
@@ -18,7 +19,13 @@ function Testimonials() {
           <div className="pt-[1vh]">
             <div className="text-xl">John Doe</div>
             <div className="rating h-[3vh]">
-              <img src="/five-star.png" alt="" className="h-full" />
+              <Rating
+                name="half-rating-read"
+                defaultValue={5}
+                precision={0.5}
+                readOnly
+                emptyIcon={<StarBorderIcon fontSize="inherit" className="dark:text-[#414148]" />}
+              />
             </div>
           </div>
         </div>
@@ -37,7 +44,13 @@ function Testimonials() {
           <div className="pt-[1vh]">
             <div className="text-xl">Jane Doe</div>
             <div className="rating h-[3vh]">
-              <img src="/four-star.png" alt="" className="h-full" />
+              <Rating
+                name="half-rating-read"
+                defaultValue={4}
+                precision={0.5}
+                readOnly
+                emptyIcon={<StarBorderIcon fontSize="inherit" className="dark:text-[#414148]" />}
+              />
             </div>
           </div>
         </div>
@@ -56,7 +69,13 @@ function Testimonials() {
           <div className="pt-[1vh]">
             <div className="text-xl">Michael Smith</div>
             <div className="rating h-[3vh]">
-              <img src="/five-star.png" alt="" className="h-full" />
+              <Rating
+                name="half-rating-read"
+                defaultValue={4.5}
+                precision={0.5}
+                readOnly
+                emptyIcon={<StarBorderIcon fontSize="inherit" className="dark:text-[#414148]" />}
+              />
             </div>
           </div>
         </div>

@@ -15,7 +15,7 @@ export default function LanguageToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="outline" className="bg-transparent" size="icon">
+        <Button variant="outline" size="icon">
           <LuEarth className="h-[1.2rem] w-[1.2rem]" />
         </Button>
       </DropdownMenuTrigger>

@@ -50,7 +50,7 @@ function VehicleSwiper() {
   const { t } = useTranslation();
 
   return (
-    <div className="w-full h-[75vh] dark:bg-[#212128] bg-[#E8E8EF] flex flex-col items-center p-[2vh]">
+    <div className="w-full h-[75vh] bg-card flex flex-col items-center p-[2vh] select-none">
       <div className="w-full pt-[3vh]">
         <div className="title text-center text-3xl font-bold">{t('home.carousel.title')}</div>
         <div className="text text-center pt-[1vh]">{t('home.carousel.text')}</div>

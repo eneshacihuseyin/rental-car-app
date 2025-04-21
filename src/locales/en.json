@@ -28,6 +28,11 @@
       "title": "Our Vehicles",
       "text": "We facilitate your journey with our well-maintained and modern vehicles suitable for every need",
       "button": "All Vehicles"
+    },
+    "sss": {
+      "title": "How can we help you?",
+      "text": "Visit our Frequently Asked Questions page to learn more about the car rental process and quickly find answers to your questions.",
+      "button": "FREQUENTLY ASKED QUESTIONS"
     }
   }
 }

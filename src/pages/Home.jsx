@@ -3,6 +3,7 @@ import Hero from '@/layouts/hero.jsx';
 import Features from '@/layouts/features.jsx';
 import Testimonials from '@/layouts/testimonials.jsx';
 import VehicleSwiper from '@/layouts/vehicle-swiper.jsx';
+import Faq from '@/layouts/faq.jsx';
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Features />
       <Testimonials />
       <VehicleSwiper />
+      <Faq />
     </div>
   );
 }

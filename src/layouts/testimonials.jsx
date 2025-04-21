@@ -7,9 +7,9 @@ function Testimonials() {
 
   return (
     <div className="w-full h-[45vh] flex p-[2vh] gap-[2vh]">
-      <div className="flex-1 p-[2vh]  dark:bg-[#212128] bg-[#E8E8EF] flex flex-col ">
+      <div className="flex-1 p-[2vh]  bg-card flex flex-col ">
         <div className="flex-[1] px-[3vw] flex justify-start gap-[3vh]">
-          <div className=" size-[14vh]">
+          <div className=" size-[13vh]">
             <img
               src="https://pbs.twimg.com/media/FjU2lkcWYAgNG6d.jpg"
               alt=""
@@ -32,9 +32,9 @@ function Testimonials() {
 
         <div className="flex-[3] p-[3vh] text-justify">{t('home.testimonials.comment1')}</div>
       </div>
-      <div className="flex-1 p-[2vh] dark:bg-[#212128] bg-[#E8E8EF] flex flex-col ">
+      <div className="flex-1 p-[2vh] bg-card flex flex-col ">
         <div className="flex-[1] px-[3vw] flex justify-start gap-[3vh]">
-          <div className=" size-[14vh]">
+          <div className=" size-[13vh]">
             <img
               src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://media.easy-peasy.ai/78e88f76-29bf-4289-9624-719aec0f7bcb/e516f677-4846-4a28-9707-ba00ffa49479.png"
               alt=""
@@ -57,9 +57,9 @@ function Testimonials() {
 
         <div className="flex-[3] p-[3vh] text-justify">{t('home.testimonials.comment2')}</div>
       </div>
-      <div className="flex-1 p-[2vh] dark:bg-[#212128] bg-[#E8E8EF] flex flex-col ">
+      <div className="flex-1 p-[2vh] bg-card flex flex-col ">
         <div className="flex-[1] px-[3vw] flex justify-start gap-[3vh]">
-          <div className=" size-[14vh]">
+          <div className=" size-[13vh]">
             <img
               src="https://www.profilebakery.com/wp-content/uploads/2023/04/LINKEDIN-Profile-Picture-AI.jpg"
               alt=""

@@ -66,11 +66,11 @@ function VehicleSwiper() {
           >
             {vehicles.map((vehicle, idx) => (
               <SwiperSlide key={idx}>
-                <div className="h-full flex flex-col items-center">
+                <div className="h-full pt-[1vh] flex flex-col items-center">
                   <img
                     src={vehicle.image}
                     alt={vehicle.title}
-                    className="h-[18vh] object-contain"
+                    className="h-[18vh] object-contain hover:scale-110 duration-700"
                   />
                   <div className="text-lg font-semibold mt-[3vh]">
                     {language === 'tr' ? vehicle.title.tr : vehicle.title.en}

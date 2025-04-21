@@ -10,25 +10,25 @@ function Features() {
   return (
     <div className="w-[100vw] h-[30vh] bg-card text-2xl text-card-foreground flex p-[3vh]">
       <div className="flex-1 flex items-center justify-center gap-[1vw] border-r">
-        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full">
+        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full transform transition-transform duration-700 hover:rotate-[360deg]">
           <TbHeadset className="text-white size-[3vw]" />
         </div>
         <div className="w-[14vw]">{t('home.features.text1')}</div>
       </div>
       <div className="flex-1 flex items-center justify-center gap-[1vw] border-r border-black dark:border-[#515158] ">
-        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full">
+        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full  transform transition-transform duration-700 hover:rotate-[360deg]">
           <IoCarSportOutline className="text-white size-[3vw]" />
         </div>
         <div className="w-[14vw]">{t('home.features.text2')}</div>
       </div>
       <div className="flex-1 flex items-center justify-center gap-[1vw] border-r border-black dark:border-[#515158]">
-        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full">
+        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full  transform transition-transform duration-700 hover:rotate-[360deg]">
           <FaMoneyBill1Wave className="text-white size-[3vw]" />
         </div>
         <div className="w-[14vw]">{t('home.features.text3')}</div>
       </div>
       <div className="flex-1 flex items-center justify-center gap-[1vw]">
-        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full">
+        <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full  transform transition-transform duration-700 hover:rotate-[360deg]">
           <LuLaptop className="text-white size-[3vw]" />
         </div>
         <div className="w-[14vw]">{t('home.features.text4')}</div>

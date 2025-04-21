@@ -7,7 +7,7 @@ function Testimonials() {
 
   return (
     <div className="w-full h-[45vh] flex p-[2vh] gap-[2vh]">
-      <div className="flex-1 p-[2vh]  bg-card flex flex-col ">
+      <div className="flex-1 shadow-md p-[2vh] bg-card flex flex-col ">
         <div className="flex-[1] px-[3vw] flex justify-start gap-[3vh]">
           <div className=" size-[13vh]">
             <img
@@ -32,7 +32,7 @@ function Testimonials() {
 
         <div className="flex-[3] p-[3vh] text-justify">{t('home.testimonials.comment1')}</div>
       </div>
-      <div className="flex-1 p-[2vh] bg-card flex flex-col ">
+      <div className="flex-1 shadow-md p-[2vh] bg-card flex flex-col ">
         <div className="flex-[1] px-[3vw] flex justify-start gap-[3vh]">
           <div className=" size-[13vh]">
             <img
@@ -57,7 +57,7 @@ function Testimonials() {
 
         <div className="flex-[3] p-[3vh] text-justify">{t('home.testimonials.comment2')}</div>
       </div>
-      <div className="flex-1 p-[2vh] bg-card flex flex-col ">
+      <div className="flex-1 shadow-md p-[2vh] bg-card flex flex-col ">
         <div className="flex-[1] px-[3vw] flex justify-start gap-[3vh]">
           <div className=" size-[13vh]">
             <img

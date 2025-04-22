@@ -8,7 +8,7 @@ function Faq() {
   return (
     <div className="w-[100vw] h-[40vh] p-[2vh] flex items-center justify-center">
       <div className="w-full h-full flex justify-end relative overflow-hidden">
-        <div className="w-full h-full flex flex-col p-[2vw] absolute bg-[image:var(--bg-linearGradient)]">
+        <div className="w-full h-full flex flex-col p-[2vw] absolute bg-[image:var(--bg-customGradient-1)]">
           <div className="title font-bold text-2xl">{t('home.sss.title')}</div>
           <div className="w-3/5 mt-[1vh] leading-7">{t('home.sss.text')}</div>
           <div>

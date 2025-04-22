@@ -4,13 +4,13 @@
 @layer base {
   :root {
     --background: #ffffff;
-    --foreground: #001a35;
-    --card: #f0f2EF;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: #40405d;
+    --foreground: #031428;
+    --card: #ededfa;
+    --popover: #ffffff;
+    --popover-foreground: #031428;
+    --primary: #232331;
     --primary-foreground: #ffffff;
-    --secondary: 240 4.8% 95.9%;
+    --secondary: #aeaed0;
     --secondary-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
@@ -18,7 +18,7 @@
     --accent-foreground: 240 5.9% 10%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: #0A2540;
+    --border: #031428;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
     --chart-1: 12 76% 61%;
@@ -27,25 +27,27 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
-    --bg-linearGradient : linear-gradient(90deg,rgba(240, 242, 239, 1) 35%, rgba(240, 242, 239, 0.4) 70%,  rgba(240, 242, 239, 0.1) 100%);
+    --bg-customGradient-1 : linear-gradient(90deg,rgba(240, 242, 239, 1) 35%, rgba(240, 242, 239, 0.4) 75%,  rgba(240, 242, 239, 0.1) 100%);
+    --bg-customGradient-2 : linear-gradient(150deg,rgba(237, 237, 250, 1) 35%, rgba(221, 221, 234, 1) 75%, rgba(205, 205, 218, 1) 100%) ;
   }
   .dark {
     --background: #121219;
     --foreground: #ffffff;
     --card: #212129;
-    --popover: 240 10% 3.9%;
-    --popover-foreground: 0 0% 98%;
+    --popover: #121219;
+    --popover-foreground: #FFFFFF;
     --primary: #40405d;
     --primary-foreground: 240 5.9% 10%;
-    --secondary: 240 3.7% 15.9%;
+    --secondary: #40404d;
     --secondary-foreground: 0 0% 98%;
-    --muted: 240 3.7% 15.9%;
+    --muted: #1f1f2a;
     --muted-foreground: 240 5% 64.9%;
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 98%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --bg-linearGradient : linear-gradient(90deg,rgba(33, 33, 41, 1) 35%, rgba(33, 33, 41, 0.7) 70%,rgba(33, 33, 41, 0.4) 100%);
+    --bg-customGradient-1 : linear-gradient(90deg,rgba(33, 33, 41, 1) 35%, rgba(33, 33, 41, 0.7) 70%,rgba(33, 33, 41, 0.4) 100%);
+    --bg-customGradient-2 : linear-gradient(150deg,rgba(33, 33, 41, 1) 35%, rgba(39, 39, 47, 1) 75%, rgba(45, 45, 53, 1) 100%);;
     --border: #515158;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;

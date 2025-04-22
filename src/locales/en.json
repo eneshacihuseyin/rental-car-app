@@ -33,6 +33,27 @@
       "title": "How can we help you?",
       "text": "Visit our Frequently Asked Questions page to learn more about the car rental process and quickly find answers to your questions.",
       "button": "FREQUENTLY ASKED QUESTIONS"
+    },
+    "footer": {
+      "slogan": "Reliable, fast, and comfortable car rental experience.",
+      "corporate": {
+        "title": "Corporate ",
+        "link1": "About Us",
+        "link2": "Contact",
+        "link3": "FAQ"
+      },
+      "services": {
+        "title": "Services ",
+        "link1": "vehicles",
+        "link2": "Promotions",
+        "link3": "Insurance"
+      },
+      "social": {
+        "title": "Follow Us",
+        "link1": "Instagram",
+        "link2": "Our Website"
+      },
+      "bottom-line": "All Rights Reserved."
     }
   }
 }

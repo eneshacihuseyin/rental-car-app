@@ -33,6 +33,27 @@
       "title": "Size Nasıl Yardımcı Olabiliriz?",
       "text": "Araç kiralama süreci hakkında daha fazla bilgi almak ve merak ettiklerinize hızlıca yanıt bulmak için Sıkça Sorulan Sorular sayfamızı ziyaret edebilirsiniz.",
       "button": "SIKÇA SORULAN SORULAR"
+    },
+    "footer": {
+      "slogan": "Güvenilir, hızlı ve konforlu araç kiralama deneyimi.",
+      "corporate": {
+        "title": "Kurumsal ",
+        "link1": "Hakkımızda",
+        "link2": "İletişim",
+        "link3": "SSS"
+      },
+      "services": {
+        "title": "Hizmetler ",
+        "link1": "Araçlar",
+        "link2": "Kampanyalar",
+        "link3": "Sigorta"
+      },
+      "social": {
+        "title": "Bizi Takip Edin",
+        "link1": "Instagram",
+        "link2": "Web Sitemiz"
+      },
+      "bottom-line": "Tüm Hakları Saklıdır."
     }
   }
 }

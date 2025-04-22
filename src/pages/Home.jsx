@@ -4,6 +4,7 @@ import Features from '@/layouts/features.jsx';
 import Testimonials from '@/layouts/testimonials.jsx';
 import VehicleSwiper from '@/layouts/vehicle-swiper.jsx';
 import Faq from '@/layouts/faq.jsx';
+import Footer from '@/layouts/footer.jsx';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
       <Testimonials />
       <VehicleSwiper />
       <Faq />
+      <Footer />
     </div>
   );
 }

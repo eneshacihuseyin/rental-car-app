@@ -15,13 +15,13 @@ function Features() {
         </div>
         <div className="w-[14vw]">{t('home.features.text1')}</div>
       </div>
-      <div className="flex-1 flex items-center justify-center gap-[1vw] border-r border-black dark:border-[#515158] ">
+      <div className="flex-1 flex items-center justify-center gap-[1vw] border-r">
         <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full  transform transition-transform duration-700 hover:rotate-[360deg]">
           <IoCarSportOutline className="text-white size-[3vw]" />
         </div>
         <div className="w-[14vw]">{t('home.features.text2')}</div>
       </div>
-      <div className="flex-1 flex items-center justify-center gap-[1vw] border-r border-black dark:border-[#515158]">
+      <div className="flex-1 flex items-center justify-center gap-[1vw] border-r">
         <div className="icon-container p-[1vw] flex items-center justify-center  bg-primary  rounded-full  transform transition-transform duration-700 hover:rotate-[360deg]">
           <FaMoneyBill1Wave className="text-white size-[3vw]" />
         </div>

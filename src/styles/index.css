@@ -5,7 +5,7 @@
   :root {
     --background: #ffffff;
     --foreground: #031428;
-    --card: #ededfa;
+    --card: #F0F0F3;
     --popover: #ffffff;
     --popover-foreground: #031428;
     --primary: #232331;
@@ -27,8 +27,8 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
-    --bg-customGradient-1 : linear-gradient(90deg,rgba(240, 242, 239, 1) 35%, rgba(240, 242, 239, 0.4) 75%,  rgba(240, 242, 239, 0.1) 100%);
-    --bg-customGradient-2 : linear-gradient(150deg,rgba(237, 237, 250, 1) 35%, rgba(221, 221, 234, 1) 75%, rgba(205, 205, 218, 1) 100%) ;
+    --bg-customGradient-1 : linear-gradient(90deg,rgba(240, 240, 243, 1) 35%, rgba(240, 240, 243, 0.4) 75%,  rgba(240, 240, 243, 0.1) 100%);
+    --bg-customGradient-2 : linear-gradient(145deg,#F0F0F3 35%, #E7E7EA 75%, #E0E0E3 100%); ;
   }
   .dark {
     --background: #121219;
@@ -36,7 +36,7 @@
     --card: #212129;
     --popover: #121219;
     --popover-foreground: #FFFFFF;
-    --primary: #40405d;
+    --primary: #404062;
     --primary-foreground: 240 5.9% 10%;
     --secondary: #40404d;
     --secondary-foreground: 0 0% 98%;

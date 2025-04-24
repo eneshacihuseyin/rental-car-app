@@ -37,7 +37,7 @@ function Hero() {
         <div className="right flex-[1] justify-between flex items-center gap-[3vw]">
           <div className="links flex flex-[2] justify-between items-center">
             <Link to="/">{t('home.header.vehicles')}</Link>
-            <Link to="/">{t('home.header.login')}</Link>
+            <Link to="/login">{t('home.header.login')}</Link>
             <Button variant={scrolled ? 'default' : 'outline'} className="p-0">
               <Link to="/" className="px-4 py-2">
                 {t('home.header.signup')}

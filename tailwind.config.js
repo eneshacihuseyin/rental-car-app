@@ -30,7 +30,7 @@ export default {
         },
         muted: {
           DEFAULT: 'var(--muted)',
-          foreground: 'hsl(var(--muted-foreground))',
+          foreground: 'var(--muted-foreground)',
         },
         accent: {
           DEFAULT: 'hsl(var(--accent))',
@@ -41,7 +41,7 @@ export default {
           foreground: 'hsl(var(--destructive-foreground))',
         },
         border: 'var(--border)',
-        input: 'hsl(var(--input))',
+        input: 'var(--input)',
         ring: 'hsl(var(--ring))',
         chart: {
           1: 'hsl(var(--chart-1))',

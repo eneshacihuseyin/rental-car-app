@@ -60,5 +60,28 @@
       },
       "bottom-line": "All Rights Reserved."
     }
+  },
+  "login": {
+    "errors": {
+      "email": {
+        "invalid": "Please enter a valid email address.",
+        "min": "Email must be at least 6 characters",
+        "max": "Email must be at most 128 characters"
+      },
+      "password": {
+        "incorrect": "Incorrect password. Please try again.",
+        "min": "Password must be at least 8 characters",
+        "max": "Password must be at most 128 characters"
+      }
+    },
+    "title": "Sign In",
+    "email": "Enter your email",
+    "password": "Enter your password",
+    "or": "OR",
+    "google": "Sign in with Google",
+    "forgot-pass": {
+      "text": "Forgot your password?",
+      "button": "Reset it now"
+    }
   }
 }

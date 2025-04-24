@@ -5,12 +5,14 @@ import Testimonials from '@/layouts/testimonials.jsx';
 import VehicleSwiper from '@/layouts/vehicle-swiper.jsx';
 import Faq from '@/layouts/faq.jsx';
 import Footer from '@/layouts/footer.jsx';
+import Campaigns from '@/layouts/campaigns.jsx';
 
 function Home() {
   return (
     <div>
       <Hero />
       <Features />
+      <Campaigns />
       <Testimonials />
       <VehicleSwiper />
       <Faq />

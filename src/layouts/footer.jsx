@@ -75,7 +75,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="w-[100vw] h-[7vh]  bg-secondary">
+      <div className="w-[100vw] h-[7vh]  bg-primary">
         <div className=" h-full z-10 text-white text-sm flex justify-center items-center text-center">
           <p className="flex text-center">© 2025. Tüm Hakları Saklıdır.</p>
         </div>

@@ -39,7 +39,7 @@ function Hero() {
             <Link to="/">{t('home.header.vehicles')}</Link>
             <Link to="/login">{t('home.header.login')}</Link>
             <Button variant={scrolled ? 'default' : 'outline'} className="p-0">
-              <Link to="/" className="px-4 py-2">
+              <Link to="/signup" className="px-4 py-2">
                 {t('home.header.signup')}
               </Link>
             </Button>

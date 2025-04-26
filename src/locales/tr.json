@@ -77,11 +77,96 @@
     "title": "Giriş Yap",
     "email": "E-posta Adresinizi Girin",
     "password": "Şifrenizi Girin",
-    "or": "VEYA",
-    "google": "Google ile Giriş Yap",
     "forgot-pass": {
       "text": "Şifrenizi mi unuttunuz?",
       "button": "Şimdi Sıfırla"
+    },
+    "signup": {
+      "text": "Üye değil misin?",
+      "button": "Üye Ol"
+    }
+  },
+  "signup": {
+    "title": "Kayıt Ol",
+    "firstname": "Ad",
+    "lastname": "Soyad",
+    "personalID": "T.C. Kimlik No",
+    "birthdate": "Doğum Tarihi",
+    "gender": {
+      "title": "Cinsiyet",
+      "male": "Erkek",
+      "female": "Kadın"
+    },
+    "phone": "Telefon Numarası",
+    "email": "E-posta",
+    "password": "Şifre",
+    "confirmPassword": "Şifreyi Onayla",
+    "driverLicenceNo": "Sürücü Belge No",
+    "driverLicenceDate": "Sürücü Belgesi Tarihi",
+    "submit": "Kayıt Ol",
+    "show": "Göster",
+    "hide": "Gizle",
+    "errors": {
+      "firstname": {
+        "tooShort": "Adınız en az 2 karakter olmalıdır.",
+        "tooLong": "Adınız en fazla 64 karakter olmalıdır."
+      },
+      "lastname": {
+        "tooShort": "Soyadınız en az 2 karakter olmalıdır.",
+        "tooLong": "Soyadınız en fazla 64 karakter olmalıdır."
+      },
+      "personalID": {
+        "invalidLength": "Kimlik numaranız 11 karakter olmalıdır.",
+        "invalidFormat": "Kimlik numaranız sadece rakamlardan oluşmalıdır."
+      },
+      "gender": {
+        "required": "Cinsiyet seçilmesi gereklidir."
+      },
+      "phone": {
+        "invalidFormat": "Telefon numaranız geçersiz. Lütfen doğru formatta girin."
+      },
+      "email": {
+        "tooShort": "E-posta adresiniz en az 6 karakter olmalıdır.",
+        "tooLong": "E-posta adresiniz en fazla 128 karakter olmalıdır.",
+        "invalidFormat": "Geçerli bir e-posta adresi girin."
+      },
+      "password": {
+        "tooShort": "Parolanız en az 8 karakter olmalıdır.",
+        "tooLong": "Parolanız en fazla 128 karakter olmalıdır."
+      },
+      "confirmPassword": {
+        "tooShort": "Onay şifreniz en az 8 karakter olmalıdır.",
+        "tooLong": "Onay şifreniz en fazla 128 karakter olmalıdır."
+      },
+      "driverLicenceNo": {
+        "tooShort": "Sürücü belgesi numaranız en az 5 karakter olmalıdır.",
+        "tooLong": "Sürücü belgesi numaranız en fazla 25 karakter olmalıdır."
+      },
+      "birthdate": {
+        "invalid": "Doğum tarihiniz geçersiz. Lütfen doğru formatta girin."
+      },
+      "driverLicenceDate": {
+        "invalid": "Sürücü belgesi tarihi geçersiz. Lütfen doğru formatta girin."
+      },
+      "passwordsMismatch": "Parolalar uyuşmuyor. Lütfen tekrar kontrol edin."
+    },
+    "months": {
+      "m1": "Ocak",
+      "m2": "Şubat",
+      "m3": "Mart",
+      "m4": "Nisan",
+      "m5": "Mayıs",
+      "m6": "Haziran",
+      "m7": "Temmuz",
+      "m8": "Ağustos",
+      "m9": "Eylül",
+      "m10": "Ekim",
+      "m11": "Kasım",
+      "m12": "Aralık"
+    },
+    "login": {
+      "text": "Zaten Üye misin?",
+      "button": "Giriş Yap"
     }
   }
 }

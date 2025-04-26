@@ -24,7 +24,7 @@ function Alert({ type, message, className, ...props }) {
         boxShadow: '0 0 1vh 1vh rgba(0,0,0,0.25)',
       }}
       className={cn(
-        `flex gap-2 select-none items-center justify-start text-lg font-[500] py-[1.5vh] pl-[2vw] w-[30vw] ${variant[type]} `,
+        `flex gap-2 select-none items-center justify-start text-lg font-[500] py-[1.5vh] px-[2vw] w-[38vw] ${variant[type]} `,
         className
       )}
       {...props}

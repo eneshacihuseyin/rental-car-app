@@ -1,19 +1,23 @@
 import { z } from 'zod';
 import { useTranslation } from 'react-i18next';
 import { useForm } from 'react-hook-form';
-import { zodResolver } from '@hookform/resolvers/zod/src/index.js';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { Button } from '@/components/ui/button.jsx';
 import { Input } from '@/components/ui/input.jsx';
 import { FcGoogle } from 'react-icons/fc';
 import { Link } from 'react-router';
-import { useCallback, useEffect } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { enqueueSnackbar } from 'notistack';
 import Alert from '@/components/ui/Alert.jsx';
 import { useTheme } from '@/components/ui/theme-provider.jsx';
 import { cn } from '@/lib/utils.js';
+
 function Login() {
   const { t } = useTranslation();
   const { theme } = useTheme();
+  const [show, setShow] = useState(false);
+
+  //Form şeması
   const loginFormSchema = z.object({
     email: z
       .string()
@@ -25,6 +29,7 @@ function Login() {
       .min(6, { message: t('login.errors.password.min') })
       .max(128, { message: t('login.errors.password.max') }),
   });
+
   const {
     register,
     handleSubmit,
@@ -35,12 +40,14 @@ function Login() {
   const clearErrorMessages = useCallback(() => {
     clearErrors();
   }, [clearErrors]);
+
   useEffect(() => {
     if (errors.email || errors.password) {
       const timer = setTimeout(() => clearErrorMessages(), 5000);
       return () => clearTimeout(timer);
     }
   }, [errors, clearErrors]);
+
   useEffect(() => {
     if (errors.email) {
       enqueueSnackbar(<Alert message={errors.email.message} type="error" />, {
@@ -54,6 +61,19 @@ function Login() {
     }
   }, [errors]);
 
+  useEffect(() => {
+    const timeout = setTimeout(() => setShow(true), 200);
+    return () => clearTimeout(timeout);
+  }, []);
+
+  const imgClasses = useMemo(() => {
+    if (theme === 'dark') {
+      return show ? 'w-[40vw] top-[15vh] left-[-15vh]' : 'w-[10vw] top-[5vh] left-[-20vw]';
+    } else {
+      return show ? 'w-[35vw] top-[20vh] left-[-5vh]' : 'w-[10vw] top-[15vh] left-[-20vw]';
+    }
+  }, [theme, show]);
+
   function onSubmit(values) {
     window.alert(values.email + ' , ' + values.password);
     window.location = '/';
@@ -61,18 +81,23 @@ function Login() {
 
   return (
     <div className="w-[100vw] h-[100vh] flex flex-row relative">
+      <div className="absolute top-[2vh] left-[2vw]">
+        <Link to="/" className="h-full w-fit flex gap-[1vw] items-center">
+          <img
+            src={theme === 'dark' ? '/darkmodelogo.png' : '/lightmodelogo.png'}
+            alt=""
+            className="h-[5vh]"
+          />
+          <div className="text-3xl">Rental Car</div>
+        </Link>
+      </div>
       <div className="flex-1 bg-[image:var(--bg-customGradient-3)]"></div>
       <div className="flex-[2]"></div>
-      <div className="absolute overflow-hidden top-[10vh] bottom-[10vh] left-[15vw] right-[15vw] rounded-lg shadow-[0_0_1vh_1vh_rgba(0,0,0,0.15)] flex flex-row-reverse">
+      <div className="absolute overflow-hidden top-[10vh] bottom-[10vh] left-[15vw] right-[15vw] rounded-lg shadow-[0_0_1vh_1vh_rgba(0,0,0,0.15)] flex flex-row-reverse pr-[5vw] items-center">
         <img
           src={theme === 'dark' ? '/login-car-dark.png' : '/login-car.png'}
           alt=""
-          className={cn(
-            'absolute ',
-            theme === 'dark'
-              ? 'w-[40vw] top-[15vh] left-[-18vh]'
-              : 'top-[20vh] left-[-5vw] w-[35vw]'
-          )}
+          className={cn('absolute transition-all duration-1000 select-none', imgClasses)}
         />
         <div className="w-1/2 p-[3vw_4vw] flex flex-col">
           <div className="title mb-[5vh] text-3xl">
@@ -89,24 +114,16 @@ function Login() {
               Submit
             </Button>
           </form>
-          <div className="h-0 w-full border-b border-b-gray-500 text-gray-500 relative my-12">
-            <span className="absolute top-[-12px] bg-background left-[45%] px-1">
-              {t('login.or')}
-            </span>
-          </div>
-          <div className="loginGoogle flex justify-center items-center">
-            <Button
-              variant="outline"
-              className="w-full border-gray-400 text-md font-[500] flex justify-center gap-3 items-center rounded-lg border py-2"
-            >
-              <FcGoogle />
-              {t('login.google')}
+          <div className="mt-[2vh] flex items-center justify-center gap-[2vh]">
+            {t('login.forgot-pass.text')}
+            <Button variant="link" className="p-0 underline">
+              <Link to="/resetpassword">{t('login.forgot-pass.button')}</Link>
             </Button>
           </div>
-          <div className="forgetPassword mt-5 flex items-center justify-center">
-            {t('login.forgot-pass.text')}
-            <Button variant="link" className="p-0 pl-2 underline">
-              <Link to="/resetpassword">{t('login.forgot-pass.button')}</Link>
+          <div className="text-sm flex items-center justify-center gap-[2vh]">
+            {t('login.signup.text')}
+            <Button variant="link" className="p-0 underline">
+              <Link to="/signup">{t('login.signup.button')}</Link>
             </Button>
           </div>
         </div>

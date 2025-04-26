@@ -82,6 +82,93 @@
     "forgot-pass": {
       "text": "Forgot your password?",
       "button": "Reset it now"
+    },
+    "signup": {
+      "text": "Not a member?",
+      "button": "Sign Up"
+    }
+  },
+  "signup": {
+    "title": "Sign Up",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "personalID": "ID Number",
+    "birthdate": "Birthdate",
+    "gender": {
+      "title": "Gender",
+      "male": "Male",
+      "female": "Female"
+    },
+    "phone": "Phone Number",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "driverLicenceNo": "Driver License No",
+    "driverLicenceDate": "Driver License Date",
+    "submit": "Sign Up",
+    "show": "Show",
+    "hide": "Hide",
+    "errors": {
+      "firstname": {
+        "tooShort": "Your first name must be at least 2 characters long.",
+        "tooLong": "Your first name can be at most 64 characters long."
+      },
+      "lastname": {
+        "tooShort": "Your last name must be at least 2 characters long.",
+        "tooLong": "Your last name can be at most 64 characters long."
+      },
+      "personalID": {
+        "invalidLength": "Your ID number must be 11 characters long.",
+        "invalidFormat": "Your ID number should only contain numbers."
+      },
+      "gender": {
+        "required": "Gender is required."
+      },
+      "phone": {
+        "invalidFormat": "Your phone number is invalid. Please enter it in the correct format."
+      },
+      "email": {
+        "tooShort": "Your email must be at least 6 characters long.",
+        "tooLong": "Your email can be at most 128 characters long.",
+        "invalidFormat": "Please enter a valid email address."
+      },
+      "password": {
+        "tooShort": "Your password must be at least 8 characters long.",
+        "tooLong": "Your password can be at most 128 characters long."
+      },
+      "confirmPassword": {
+        "tooShort": "Your confirm password must be at least 8 characters long.",
+        "tooLong": "Your confirm password can be at most 128 characters long."
+      },
+      "driverLicenceNo": {
+        "tooShort": "Your driver license number must be at least 5 characters long.",
+        "tooLong": "Your driver license number can be at most 25 characters long."
+      },
+      "birthdate": {
+        "invalid": "Your birthdate is invalid. Please enter it in the correct format."
+      },
+      "driverLicenceDate": {
+        "invalid": "Your driver license date is invalid. Please enter it in the correct format."
+      },
+      "passwordsMismatch": "Passwords do not match. Please check again."
+    },
+    "months": {
+      "m1": "January",
+      "m2": "February",
+      "m3": "March",
+      "m4": "April",
+      "m5": "May",
+      "m6": "June",
+      "m7": "July",
+      "m8": "August",
+      "m9": "September",
+      "m10": "October",
+      "m11": "November",
+      "m12": "December"
+    },
+    "login": {
+      "text": "Already have an account?",
+      "button": "Login"
     }
   }
 }

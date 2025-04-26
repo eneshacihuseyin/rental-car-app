@@ -6,6 +6,7 @@ import { LanguageProvider } from '../components/ui/language-provider.jsx';
 import '../locales/i18n.js';
 import Login from './Login.jsx';
 import { SnackbarProvider } from 'notistack';
+import Signup from '@/pages/Signup.jsx';
 function App() {
   return (
     <ThemeProvider defaultTheme="light" storageKey="theme">
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/signup" element={<Signup />}></Route>
           </Routes>
         </SnackbarProvider>
       </LanguageProvider>

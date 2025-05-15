@@ -1,0 +1,532 @@
+[
+  {
+    "segment": "ekonomik",
+    "brand": "Toyota",
+    "model": "Yaris",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 5,
+    "bag_capacity": 309
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Citroen",
+    "model": "C3",
+    "year": 2021,
+    "gear_type": "otomatik",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 251
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Dacia",
+    "model": "Sandero",
+    "year": 2023,
+    "gear_type": "otomatik",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 283
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Fiat",
+    "model": "Egea",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 400
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Hyundai",
+    "model": "i20",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 251
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Renault",
+    "model": "Clio",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 328
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Ford",
+    "model": "Fiesta",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 353
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Peugeot",
+    "model": "208",
+    "year": 2023,
+    "gear_type": "otomatik",
+    "fuel_type": "dizel",
+    "person_capacity": 5,
+    "bag_capacity": 311
+  },
+  {
+    "segment": "ekonomik",
+    "brand": "Kia",
+    "model": "Rio",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 343
+  },
+  {
+    "segment": "orta",
+    "brand": "Toyota",
+    "model": "Corolla",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 454
+  },
+  {
+    "segment": "orta",
+    "brand": "Renault",
+    "model": "Megane",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 395
+  },
+  {
+    "segment": "orta",
+    "brand": "Mazda",
+    "model": "3",
+    "year": 2022,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 354
+  },
+  {
+    "segment": "orta",
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "year": 2024,
+    "gear_type": "manuel",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 354
+  },
+  {
+    "segment": "orta",
+    "brand": "Ford",
+    "model": "Focus",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 5,
+    "bag_capacity": 435
+  },
+  {
+    "segment": "orta",
+    "brand": "Peugeot",
+    "model": "308",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 471
+  },
+  {
+    "segment": "orta",
+    "brand": "Opel",
+    "model": "Astra",
+    "year": 2023,
+    "gear_type": "otomatik",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 359
+  },
+  {
+    "segment": "orta",
+    "brand": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "gear_type": "otomatik",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 472
+  },
+  {
+    "segment": "orta",
+    "brand": "Skoda",
+    "model": "Octavia",
+    "year": 2021,
+    "gear_type": "otomatik",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 436
+  },
+  {
+    "segment": "üst",
+    "brand": "Audi",
+    "model": "A4",
+    "year": 2022,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 509
+  },
+  {
+    "segment": "üst",
+    "brand": "Alfa Romeo",
+    "model": "Giulia",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 412
+  },
+  {
+    "segment": "üst",
+    "brand": "Volvo",
+    "model": "S60",
+    "year": 2024,
+    "gear_type": "otomatik",
+    "fuel_type": "dizel",
+    "person_capacity": 5,
+    "bag_capacity": 485
+  },
+  {
+    "segment": "üst",
+    "brand": "Jaguar",
+    "model": "XE",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 423
+  },
+  {
+    "segment": "üst",
+    "brand": "Infiniti",
+    "model": "Q50",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 502
+  },
+  {
+    "segment": "üst",
+    "brand": "BMW",
+    "model": "3 Serisi",
+    "year": 2023,
+    "gear_type": "manuel",
+    "fuel_type": "dizel",
+    "person_capacity": 5,
+    "bag_capacity": 452
+  },
+  {
+    "segment": "üst",
+    "brand": "Lexus",
+    "model": "IS",
+    "year": 2022,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 484
+  },
+  {
+    "segment": "üst",
+    "brand": "Genesis",
+    "model": "G70",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 504
+  },
+  {
+    "segment": "üst",
+    "brand": "Mercedes-Benz",
+    "model": "C Serisi",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 478
+  },
+  {
+    "segment": "lüks",
+    "brand": "Lexus",
+    "model": "ES",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "dizel",
+    "person_capacity": 5,
+    "bag_capacity": 497
+  },
+  {
+    "segment": "lüks",
+    "brand": "BMW",
+    "model": "5 Serisi",
+    "year": 2022,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 5,
+    "bag_capacity": 560
+  },
+  {
+    "segment": "lüks",
+    "brand": "Volvo",
+    "model": "S90",
+    "year": 2022,
+    "gear_type": "otomatik",
+    "fuel_type": "benzin",
+    "person_capacity": 5,
+    "bag_capacity": 467
+  },
+  {
+    "segment": "lüks",
+    "brand": "Genesis",
+    "model": "G80",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "dizel",
+    "person_capacity": 5,
+    "bag_capacity": 534
+  },
+  {
+    "segment": "lüks",
+    "brand": "Mercedes-Benz",
+    "model": "E Serisi",
+    "year": 2021,
+    "gear_type": "manuel",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 539
+  },
+  {
+    "segment": "lüks",
+    "brand": "Porsche",
+    "model": "Panamera",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 5,
+    "bag_capacity": 536
+  },
+  {
+    "segment": "lüks",
+    "brand": "Jaguar",
+    "model": "XF",
+    "year": 2024,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 508
+  },
+  {
+    "segment": "lüks",
+    "brand": "Tesla",
+    "model": "Model S",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 475
+  },
+  {
+    "segment": "lüks",
+    "brand": "Audi",
+    "model": "A6",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 511
+  },
+  {
+    "segment": "suv",
+    "brand": "Kia",
+    "model": "Sportage",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 478
+  },
+  {
+    "segment": "suv",
+    "brand": "Honda",
+    "model": "CR-V",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 5,
+    "bag_capacity": 537
+  },
+  {
+    "segment": "suv",
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "year": 2022,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 551
+  },
+  {
+    "segment": "suv",
+    "brand": "Mazda",
+    "model": "CX-5",
+    "year": 2022,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 5,
+    "bag_capacity": 579
+  },
+  {
+    "segment": "suv",
+    "brand": "Volvo",
+    "model": "XC60",
+    "year": 2021,
+    "gear_type": "otomatik",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 567
+  },
+  {
+    "segment": "suv",
+    "brand": "Toyota",
+    "model": "RAV4",
+    "year": 2024,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 5,
+    "bag_capacity": 561
+  },
+  {
+    "segment": "suv",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "year": 2022,
+    "gear_type": "otomatik",
+    "fuel_type": "elektrik",
+    "person_capacity": 5,
+    "bag_capacity": 649
+  },
+  {
+    "segment": "suv",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "year": 2023,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 474
+  },
+  {
+    "segment": "suv",
+    "brand": "Ford",
+    "model": "Kuga",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 564
+  },
+  {
+    "segment": "minibüs",
+    "brand": "Peugeot",
+    "model": "Traveller",
+    "year": 2023,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 7,
+    "bag_capacity": 844
+  },
+  {
+    "segment": "minibüs",
+    "brand": "Volkswagen",
+    "model": "Caravelle",
+    "year": 2024,
+    "gear_type": "manuel",
+    "fuel_type": "lpg",
+    "person_capacity": 7,
+    "bag_capacity": 889
+  },
+  {
+    "segment": "minibüs",
+    "brand": "Ford",
+    "model": "Tourneo Custom",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "hibrit",
+    "person_capacity": 7,
+    "bag_capacity": 939
+  },
+  {
+    "segment": "minibüs",
+    "brand": "Renault",
+    "model": "Trafic",
+    "year": 2024,
+    "gear_type": "manuel",
+    "fuel_type": "hibrit",
+    "person_capacity": 7,
+    "bag_capacity": 882
+  },
+  {
+    "segment": "minibüs",
+    "brand": "Mercedes-Benz",
+    "model": "Vito",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "lpg",
+    "person_capacity": 7,
+    "bag_capacity": 1118
+  },
+  {
+    "segment": "karavan",
+    "brand": "Citroen",
+    "model": "Campster",
+    "year": 2020,
+    "gear_type": "otomatik",
+    "fuel_type": "benzin",
+    "person_capacity": 4,
+    "bag_capacity": 746
+  },
+  {
+    "segment": "karavan",
+    "brand": "Mercedes-Benz",
+    "model": "Marco Polo",
+    "year": 2020,
+    "gear_type": "manuel",
+    "fuel_type": "benzin",
+    "person_capacity": 4,
+    "bag_capacity": 1304
+  },
+  {
+    "segment": "karavan",
+    "brand": "Ford",
+    "model": "Transit Custom Nugget",
+    "year": 2022,
+    "gear_type": "otomatik",
+    "fuel_type": "benzin",
+    "person_capacity": 4,
+    "bag_capacity": 1018
+  }
+]

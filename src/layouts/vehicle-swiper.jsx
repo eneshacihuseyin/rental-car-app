@@ -52,8 +52,8 @@ function VehicleSwiper() {
   return (
     <div className="w-full h-[75vh] bg-[image:var(--bg-customGradient-2)] flex flex-col items-center p-[2vh] select-none">
       <div className="w-full pt-[3vh]">
-        <div className="title text-center text-3xl font-bold">{t('home.carousel.title')}</div>
-        <div className="text text-center pt-[1vh]">{t('home.carousel.text')}</div>
+        <div className="title text-center text-4xl font-bold">{t('home.carousel.title')}</div>
+        <div className="text text-center text-xl pt-[1vh]">{t('home.carousel.text')}</div>
         <div className="swiper w-full h-[55vh]">
           <Swiper
             slidesPerView={3}
@@ -84,7 +84,7 @@ function VehicleSwiper() {
             <Button className="p-0 mt-[3vh] h-[6vh]">
               <Link
                 to="/"
-                className="text-xl w-[15vw] h-[15vh] flex text-center items-center justify-center"
+                className="text-2xl w-[15vw] h-[15vh] flex text-center items-center justify-center"
               >
                 {t('home.carousel.button')}
               </Link>

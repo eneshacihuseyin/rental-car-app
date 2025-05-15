@@ -6,7 +6,7 @@ function Testimonials() {
   const { t } = useTranslation();
 
   return (
-    <div className="w-full h-[45vh] flex p-[2vh] gap-[2vh]">
+    <div className="w-full h-[45vh] flex p-[2vh] gap-[2vh] text-lg">
       <div className="flex-1 shadow-md p-[2vh] bg-card flex flex-col ">
         <div className="flex-[1] px-[3vw] flex justify-start gap-[3vh]">
           <div className=" size-[13vh]">

@@ -3,6 +3,7 @@
     "header": {
       "login": "Login",
       "vehicles": "Vehicles",
+      "campaigns": "Campaigns",
       "signup": "Sign Up",
       "theme": {
         "light": "Light",
@@ -49,7 +50,7 @@
       },
       "services": {
         "title": "Services ",
-        "link1": "vehicles",
+        "link1": "Vehicles",
         "link2": "Promotions",
         "link3": "Insurance"
       },

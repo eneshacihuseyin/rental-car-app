@@ -8,11 +8,11 @@ function Campaigns() {
     <div className="w-[100vw] h-[33vh] p-[2vh_2vh_0_2vh] flex items-center justify-center">
       <div className="h-full w-full flex bg-card shadow-md">
         <div className="h-full flex-[1.5] flex flex-col p-[1vw_2vw] ">
-          <h2 className="text-2xl font-bold">{t('home.campaigns.title')}🎁</h2>
-          <p className=" mt-[2vh] leading-6">{t('home.campaigns.text')}</p>
+          <h2 className="text-3xl font-bold">{t('home.campaigns.title')}🎁</h2>
+          <p className="text-xl mt-[2vh] leading-6">{t('home.campaigns.text')}</p>
           <div className="mt-[2vh]">
             <Button variant="default" className="p-0 mt-[1vh]">
-              <Link to="/campaigns" className="p-[2vh] text-sm ">
+              <Link to="/campaigns" className="p-[2vh] text-lg ">
                 {t('home.campaigns.button')}
               </Link>
             </Button>

@@ -7,9 +7,11 @@ import {
 } from '@/components/ui/dropdown-menu.jsx';
 import { useTheme } from '@/components/ui/theme-provider.jsx';
 import { LuMoon, LuSun } from 'react-icons/lu';
+import { useTranslation } from 'react-i18next';
 
 export default function ThemeToggle() {
   const { setTheme } = useTheme();
+  const { t } = useTranslation();
 
   return (
     <DropdownMenu>
@@ -20,8 +22,12 @@ export default function ThemeToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="center" className="z-[1000]">
-        <DropdownMenuItem onClick={() => setTheme('light')}>Light</DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme('dark')}>Dark</DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme('light')}>
+          {t('home.header.theme.light')}
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => setTheme('dark')}>
+          {t('home.header.theme.dark')}
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );

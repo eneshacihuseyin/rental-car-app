@@ -4,7 +4,6 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button } from '@/components/ui/button.jsx';
 import { Input } from '@/components/ui/input.jsx';
-import { FcGoogle } from 'react-icons/fc';
 import { Link } from 'react-router';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { enqueueSnackbar } from 'notistack';

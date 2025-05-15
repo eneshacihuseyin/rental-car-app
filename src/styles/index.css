@@ -27,7 +27,7 @@
     --chart-4: 43 74% 66%;
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
-    --bg-customGradient-1 : linear-gradient(90deg,rgba(240, 240, 243, 1) 35%, rgba(240, 240, 243, 0.4) 75%,  rgba(240, 240, 243, 0.1) 100%);
+    --bg-customGradient-1 : linear-gradient(90deg,rgba(240, 240, 243, 1) 40%, rgba(240, 240, 243, 0.4) 80%,  rgba(240, 240, 243, 0.1) 100%);
     --bg-customGradient-2 : linear-gradient(145deg,#F0F0F3 20%, #E0E0F3 60%, #D0D0F3 80%); ;
     --bg-customGradient-3 : linear-gradient(150deg,#AACCFF 30%, #5565AA 100%);
 
@@ -48,7 +48,7 @@
     --accent-foreground: 0 0% 98%;
     --destructive: #ff8c8c;
     --destructive-foreground: 0 0% 98%;
-    --bg-customGradient-1 : linear-gradient(90deg,rgba(33, 33, 41, 1) 35%, rgba(33, 33, 41, 0.7) 70%,rgba(33, 33, 41, 0.4) 100%);
+    --bg-customGradient-1 : linear-gradient(90deg,rgba(33, 33, 41, 1) 40%, rgba(33, 33, 41, 0.7) 70%,rgba(33, 33, 41, 0.4) 100%);
     --bg-customGradient-2 : linear-gradient(150deg,rgba(33, 33, 41, 1) 35%, rgba(39, 39, 47, 1) 75%, rgba(45, 45, 53, 1) 100%);
     --bg-customGradient-3 : linear-gradient(150deg, #8a8a9a 20%, #5a5a6a 40%, #2a2a3a 80%);
     --border: #d6d6de;

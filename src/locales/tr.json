@@ -169,5 +169,36 @@
       "text": "Zaten Üye misin?",
       "button": "Giriş Yap"
     }
+  },
+  "vehicles": {
+    "all-button": "Hepsi",
+    "segments": {
+      "economy": "Ekonomik",
+      "compact": "Orta",
+      "premium": "Üst",
+      "luxury": "Lüks",
+      "suv": "SUV",
+      "minibus": "Minibüs",
+      "caravan": "Karavan"
+    },
+    "features": {
+      "person": "Kişi",
+      "bag": "Bagaj",
+      "gear": "Vites Tipi",
+      "fuel": "Yakıt Tipi"
+    },
+    "fuels": {
+      "gasoline": "Benzin",
+      "diesel": "Dizel",
+      "lpg": "LPG",
+      "hybrid": "Hibrit",
+      "electric": "Elektrik",
+      "": ""
+    },
+    "gears": {
+      "manual": "Manuel",
+      "automatic": "Otomatik"
+    },
+    "button": "Detaylar"
   }
 }

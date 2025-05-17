@@ -10,7 +10,7 @@ function Hero() {
   const { t } = useTranslation();
 
   return (
-    <div className=" select-none">
+    <div className="select-none">
       <Header />
       <div className="hero w-[100vw] h-[100vh] p-0 m-0 bg-[url('/hero.png')] bg-center bg-cover flex pt-[15vh]">
         <div className="mt-[10vh] h-[75vh] flex flex-col items-start gap-[5vh]">

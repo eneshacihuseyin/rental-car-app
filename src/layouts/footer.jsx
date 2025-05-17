@@ -2,14 +2,23 @@ import React from 'react';
 import { Link } from 'react-router';
 import { FaEarthAmericas, FaInstagram } from 'react-icons/fa6';
 import { useTranslation } from 'react-i18next';
+import { useTheme } from '@/components/ui/theme-provider.jsx';
 function Footer() {
   const { t } = useTranslation();
-
+  const { theme } = useTheme();
   return (
     <footer className="w-[100vw] bg-card ">
       <div className="grid h-[23vh] py-[2vh] px-[1vw] grid-cols-4 gap-[2vh]">
         <div>
-          <img src="/GO-Rentals-Transparent-Light.png" alt="" className="w-[12vw] mb-[1vh]" />
+          <img
+            src={
+              theme === 'light'
+                ? '/GO-Rentals-Transparent-Light.png'
+                : '/GO-Rentals-Transparent-Dark.png'
+            }
+            alt=""
+            className="w-[12vw] mb-[1vh]"
+          />
           <p className="">{t('home.footer.slogan')}</p>
         </div>
         <div>

@@ -40,7 +40,7 @@ function Header() {
           </Link>
         </div>
         <div className="links flex flex-[1.1] justify-between ">
-          <div className="vehicles ">
+          <div className="vehicles flex-1 ">
             <Button
               variant="link"
               className={`p-0 font-light ${scrolled ? 'text-foreground' : 'text-white'} `}
@@ -50,7 +50,7 @@ function Header() {
               </Link>
             </Button>
           </div>
-          <div className="campaigns">
+          <div className="campaigns flex-[1.2]">
             <Button
               variant="link"
               className={`p-0 font-light ${scrolled ? 'text-foreground' : 'text-white'} `}

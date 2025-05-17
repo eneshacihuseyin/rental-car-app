@@ -171,5 +171,35 @@
       "text": "Already have an account?",
       "button": "Login"
     }
+  },
+  "vehicles": {
+    "all-button": "All",
+    "segments": {
+      "economy": "Economy",
+      "compact": "Compact",
+      "premium": "Premium",
+      "luxury": "Luxury",
+      "suv": "SUV",
+      "minibus": "Minibus",
+      "caravan": "Caravan"
+    },
+    "features": {
+      "person": "Person",
+      "bag": "Bag",
+      "gear": "Gear Type",
+      "fuel": "Fuel Type"
+    },
+    "fuels": {
+      "gasoline": "Gasoline",
+      "diesel": "Diesel",
+      "lpg": "LPG",
+      "hybrid": "Hybrid",
+      "electric": "Electric"
+    },
+    "gears": {
+      "manual": "Manual",
+      "automatic": "Automatic"
+    },
+    "button": "Details"
   }
 }

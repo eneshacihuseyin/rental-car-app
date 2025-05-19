@@ -1,303 +1,304 @@
 [
   {
+    "id": 1,
     "segment": "economy",
     "brand": "Toyota",
     "model": "Yaris",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 309
+    "daily_price": 4500,
+    "features_id": 1,
+    "conditions_id": 1,
+    "location_id": 1
   },
   {
     "segment": "economy",
     "brand": "Citroen",
     "model": "C3",
     "year": 2021,
-    "gear_type": "automatic",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 251
+    "daily_price": 4500,
+    "features_id": 2,
+    "conditions_id": 1,
+    "location_id": 2
   },
   {
     "segment": "economy",
     "brand": "Dacia",
     "model": "Sandero",
     "year": 2023,
-    "gear_type": "automatic",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 283
+    "daily_price": 4500,
+    "features_id": 3,
+    "conditions_id": 1,
+    "location_id": 3
   },
   {
     "segment": "economy",
     "brand": "Fiat",
     "model": "Egea",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 400
+    "daily_price": 4500,
+    "features_id": 4,
+    "conditions_id": 1,
+    "location_id": 4
   },
   {
     "segment": "economy",
     "brand": "Hyundai",
     "model": "i20",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 251
+    "daily_price": 4500,
+    "features_id": 5,
+    "conditions_id": 1,
+    "location_id": 5
   },
   {
     "segment": "economy",
     "brand": "Renault",
     "model": "Clio",
     "year": 2020,
-    "gear_type": "automatic",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 328
+    "daily_price": 4500,
+    "features_id": 6,
+    "conditions_id": 1,
+    "location_id": 6
   },
   {
     "segment": "economy",
     "brand": "Ford",
     "model": "Fiesta",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 353
+    "daily_price": 4500,
+    "features_id": 7,
+    "conditions_id": 1,
+    "location_id": 7
   },
   {
     "segment": "economy",
     "brand": "Peugeot",
     "model": "208",
     "year": 2023,
-    "gear_type": "automatic",
-    "fuel_type": "diesel",
-    "person_capacity": 5,
-    "bag_capacity": 311
+    "daily_price": 4500,
+    "features_id": 8,
+    "conditions_id": 1,
+    "location_id": 8
   },
   {
     "segment": "economy",
     "brand": "Kia",
     "model": "Rio",
     "year": 2020,
-    "gear_type": "automatic",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 343
+    "daily_price": 4500,
+    "features_id": 9,
+    "conditions_id": 1,
+    "location_id": 9
   },
   {
     "segment": "compact",
     "brand": "Toyota",
     "model": "Corolla",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 454
+    "daily_price": 5500,
+    "features_id": 10,
+    "conditions_id": 1,
+    "location_id": 1
   },
   {
     "segment": "compact",
     "brand": "Renault",
     "model": "Megane",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 395
+    "daily_price": 5500,
+    "features_id": 8,
+    "conditions_id": 1,
+    "location_id": 2
   },
   {
     "segment": "compact",
     "brand": "Mazda",
     "model": "3",
     "year": 2022,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 354
+    "daily_price": 5500,
+    "features_id": 4,
+    "conditions_id": 1,
+    "location_id": 3
   },
   {
     "segment": "compact",
     "brand": "Volkswagen",
     "model": "Golf",
     "year": 2024,
-    "gear_type": "manual",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 354
+    "daily_price": 5500,
+    "features_id": 5,
+    "conditions_id": 1,
+    "location_id": 4
   },
   {
     "segment": "compact",
     "brand": "Ford",
     "model": "Focus",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 435
+    "daily_price": 5500,
+    "features_id": 11,
+    "conditions_id": 1,
+    "location_id": 5
   },
   {
     "segment": "compact",
     "brand": "Peugeot",
     "model": "308",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 471
+    "daily_price": 5500,
+    "features_id": 5,
+    "conditions_id": 1,
+    "location_id": 6
   },
   {
     "segment": "compact",
     "brand": "Opel",
     "model": "Astra",
     "year": 2023,
-    "gear_type": "automatic",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 359
+    "daily_price": 5500,
+    "features_id": 12,
+    "conditions_id": 1,
+    "location_id": 7
   },
   {
     "segment": "compact",
     "brand": "Honda",
     "model": "Civic",
     "year": 2022,
-    "gear_type": "automatic",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 472
+    "daily_price": 5500,
+    "features_id": 3,
+    "conditions_id": 1,
+    "location_id": 8
   },
   {
     "segment": "compact",
     "brand": "Skoda",
     "model": "Octavia",
     "year": 2021,
-    "gear_type": "automatic",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 436
+    "daily_price": 5500,
+    "features_id": 3,
+    "conditions_id": 1,
+    "location_id": 9
   },
   {
     "segment": "premium",
     "brand": "Audi",
     "model": "A4",
     "year": 2022,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 509
+    "daily_price": 8000,
+    "features_id": 4,
+    "conditions_id": 3,
+    "location_id": 1
   },
   {
     "segment": "premium",
     "brand": "Alfa Romeo",
     "model": "Giulia",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 412
+    "daily_price": 8000,
+    "features_id": 13,
+    "conditions_id": 3,
+    "location_id": 2
   },
   {
     "segment": "premium",
     "brand": "Volvo",
     "model": "S60",
     "year": 2024,
-    "gear_type": "automatic",
-    "fuel_type": "diesel",
-    "person_capacity": 5,
-    "bag_capacity": 485
+    "daily_price": 8000,
+    "features_id": 14,
+    "conditions_id": 3,
+    "location_id": 3
   },
   {
     "segment": "premium",
     "brand": "Jaguar",
     "model": "XE",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 423
+    "daily_price": 8000,
+    "features_id": 10,
+    "conditions_id": 3,
+    "location_id": 4
   },
   {
     "segment": "premium",
     "brand": "Infiniti",
     "model": "Q50",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 502
+    "daily_price": 8000,
+    "features_id": 10,
+    "conditions_id": 3,
+    "location_id": 5
   },
   {
     "segment": "premium",
     "brand": "BMW",
     "model": "3 Series",
     "year": 2023,
-    "gear_type": "manual",
-    "fuel_type": "diesel",
-    "person_capacity": 5,
-    "bag_capacity": 452
+    "daily_price": 8000,
+    "features_id": 15,
+    "conditions_id": 3,
+    "location_id": 6
   },
   {
     "segment": "premium",
     "brand": "Lexus",
     "model": "IS",
     "year": 2022,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 484
+    "daily_price": 8000,
+    "features_id": 10,
+    "conditions_id": 3,
+    "location_id": 7
   },
   {
     "segment": "premium",
     "brand": "Genesis",
     "model": "G70",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 504
+    "daily_price": 8000,
+    "features_id": 4,
+    "conditions_id": 3,
+    "location_id": 8
   },
   {
     "segment": "premium",
-    "brand": "Mercedes-Benz",
+    "brand": "Mercedes Benz",
     "model": "C Series",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 478
+    "daily_price": 8000,
+    "features_id": 13,
+    "conditions_id": 3,
+    "location_id": 9
   },
   {
     "segment": "luxury",
     "brand": "Lexus",
     "model": "ES",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "diesel",
-    "person_capacity": 5,
-    "bag_capacity": 497
+    "daily_price": 9500,
+    "features_id": 16,
+    "conditions_id": 5,
+    "location_id": 1
   },
   {
     "segment": "luxury",
     "brand": "BMW",
     "model": "5 Series",
     "year": 2022,
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 560
+    "daily_price": 9500,
+    "features_id": 17,
+    "conditions_id": 5,
+    "location_id": 2
   },
   {
     "segment": "luxury",
     "brand": "Volvo",
     "model": "S90",
     "year": 2022,
-    "gear_type": "automatic",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 467
+    "daily_price": 9500,
+    "features_id": 18,
+    "conditions_id": 5,
+    "location_id": 3
   },
   {
     "segment": "luxury",
@@ -305,229 +306,230 @@
     "model": "G80",
     "year": 2020,
     "gear_type": "manual",
-    "fuel_type": "diesel",
-    "person_capacity": 5,
-    "bag_capacity": 534
+    "daily_price": 9500,
+    "features_id": 16,
+    "conditions_id": 5,
+    "location_id": 4
   },
   {
     "segment": "luxury",
-    "brand": "Mercedes-Benz",
+    "brand": "Mercedes Benz",
     "model": "E Series",
     "year": 2021,
-    "gear_type": "manual",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 539
+    "daily_price": 9500,
+    "features_id": 13,
+    "conditions_id": 5,
+    "location_id": 5
   },
   {
     "segment": "luxury",
     "brand": "Porsche",
     "model": "Panamera",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 536
+    "daily_price": 9500,
+    "features_id": 17,
+    "conditions_id": 5,
+    "location_id": 6
   },
   {
     "segment": "luxury",
     "brand": "Jaguar",
     "model": "XF",
     "year": 2024,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 508
+    "daily_price": 9500,
+    "features_id": 10,
+    "conditions_id": 5,
+    "location_id": 7
   },
   {
     "segment": "luxury",
     "brand": "Tesla",
     "model": "Model S",
     "year": 2020,
-    "gear_type": "automatic",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 475
+    "daily_price": 9500,
+    "features_id": 10,
+    "conditions_id": 5,
+    "location_id": 8
   },
   {
     "segment": "luxury",
     "brand": "Audi",
     "model": "A6",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 511
+    "daily_price": 9500,
+    "features_id": 13,
+    "conditions_id": 5,
+    "location_id": 9
   },
   {
     "segment": "suv",
     "brand": "Kia",
     "model": "Niro EV",
     "year": 2020,
-    "gear_type": "automatic",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 451
+    "daily_price": 7000,
+    "features_id": 19,
+    "conditions_id": 2,
+    "location_id": 1
   },
 
   {
     "segment": "suv",
     "brand": "Honda",
-    "model": "CR-V",
+    "model": "CR V",
     "year": 2020,
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 537
+    "daily_price": 7000,
+    "features_id": 17,
+    "conditions_id": 2,
+    "location_id": 2
   },
   {
     "segment": "suv",
     "brand": "Nissan",
     "model": "Qashqai",
     "year": 2022,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 551
+    "daily_price": 7000,
+    "features_id": 20,
+    "conditions_id": 2,
+    "location_id": 3
   },
   {
     "segment": "suv",
     "brand": "Mazda",
-    "model": "CX-5",
+    "model": "CX 5",
     "year": 2022,
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 579
+    "daily_price": 7000,
+    "features_id": 17,
+    "conditions_id": 2,
+    "location_id": 4
   },
   {
     "segment": "suv",
     "brand": "Volvo",
     "model": "XC60",
     "year": 2021,
-    "gear_type": "automatic",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 567
+    "daily_price": 7000,
+    "features_id": 21,
+    "conditions_id": 2,
+    "location_id": 5
   },
   {
     "segment": "suv",
     "brand": "Toyota",
     "model": "RAV4",
     "year": 2024,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 5,
-    "bag_capacity": 561
+    "daily_price": 7000,
+    "features_id": 20,
+    "conditions_id": 2,
+    "location_id": 6
   },
   {
     "segment": "suv",
     "brand": "Hyundai",
     "model": "Tucson",
     "year": 2022,
-    "gear_type": "automatic",
-    "fuel_type": "electric",
-    "person_capacity": 5,
-    "bag_capacity": 649
+    "daily_price": 7000,
+    "features_id": 22,
+    "conditions_id": 2,
+    "location_id": 7
   },
   {
     "segment": "suv",
     "brand": "Volkswagen",
     "model": "Tiguan",
     "year": 2023,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 474
+    "daily_price": 7000,
+    "features_id": 10,
+    "conditions_id": 2,
+    "location_id": 8
   },
   {
     "segment": "suv",
     "brand": "Ford",
     "model": "Kuga",
     "year": 2020,
-    "gear_type": "automatic",
-    "fuel_type": "lpg",
-    "person_capacity": 5,
-    "bag_capacity": 564
+    "daily_price": 7000,
+    "features_id": 23,
+    "conditions_id": 2,
+    "location_id": 9
   },
   {
     "segment": "minibus",
     "brand": "Peugeot",
     "model": "Traveller",
     "year": 2023,
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 7,
-    "bag_capacity": 844
+    "daily_price": 6000,
+    "features_id": 24,
+    "conditions_id": 4,
+    "location_id": 1
   },
   {
     "segment": "minibus",
     "brand": "Volkswagen",
     "model": "Caravelle",
     "year": 2024,
-    "gear_type": "manual",
-    "fuel_type": "lpg",
-    "person_capacity": 7,
-    "bag_capacity": 889
+    "daily_price": 6000,
+    "features_id": 25,
+    "conditions_id": 4,
+    "location_id": 2
   },
   {
     "segment": "minibus",
     "brand": "Ford",
     "model": "Tourneo Custom",
     "year": 2020,
-    "gear_type": "automatic",
-    "fuel_type": "hybrid",
-    "person_capacity": 7,
-    "bag_capacity": 939
+    "daily_price": 6000,
+    "features_id": 26,
+    "conditions_id": 4,
+    "location_id": 3
   },
   {
     "segment": "minibus",
     "brand": "Renault",
     "model": "Trafic",
     "year": 2024,
-    "gear_type": "manual",
-    "fuel_type": "hybrid",
-    "person_capacity": 7,
-    "bag_capacity": 882
+    "daily_price": 6000,
+    "features_id": 27,
+    "conditions_id": 4,
+    "location_id": 4
   },
   {
     "segment": "minibus",
-    "brand": "Mercedes-Benz",
+    "brand": "Mercedes Benz",
     "model": "Vito",
     "year": 2020,
-    "gear_type": "automatic",
-    "fuel_type": "lpg",
-    "person_capacity": 7,
-    "bag_capacity": 1118
+    "daily_price": 6000,
+    "features_id": 28,
+    "conditions_id": 4,
+    "location_id": 5
   },
   {
     "segment": "caravan",
-    "brand": "Uğur ",
-    "model": "Karavan + Pick Up",
+    "brand": "Uğur",
+    "model": "Karavan+Pick Up",
     "year": "",
-    "gear_type": "manual",
-    "fuel_type": "diesel",
-    "person_capacity": 6,
-    "bag_capacity": 746
+    "daily_price": 5500,
+    "features_id": 29,
+    "conditions_id": 6,
+    "location_id": 6
   },
   {
     "segment": "caravan",
     "brand": "Crawler",
     "model": "Entegre Karavan",
     "year": "",
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 5,
-    "bag_capacity": 1304
+    "daily_price": 5500,
+    "features_id": 30,
+    "conditions_id": 6,
+    "location_id": 7
   },
   {
     "segment": "caravan",
     "brand": "Crawler",
     "model": "Amare Motokaravan",
     "year": "",
-    "gear_type": "manual",
-    "fuel_type": "gasoline",
-    "person_capacity": 6,
-    "bag_capacity": 1018
+    "daily_price": 5500,
+    "features_id": 31,
+    "conditions_id": 6,
+    "location_id": 8
   }
 ]

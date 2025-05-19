@@ -11,7 +11,7 @@ import Alert from '@/components/ui/Alert';
 import { z } from 'zod';
 import { DatePicker } from '@/components/ui/date-picker.jsx';
 import { format } from 'date-fns';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { BiSolidHide, BiSolidShow } from 'react-icons/bi';
 import {
   Select,

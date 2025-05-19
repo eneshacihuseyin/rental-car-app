@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { FaEarthAmericas, FaInstagram } from 'react-icons/fa6';
 import { useTranslation } from 'react-i18next';
 import { useTheme } from '@/components/ui/theme-provider.jsx';

@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { useLanguage } from '@/components/ui/language-provider.jsx';
 import { Button } from '@/components/ui/button.jsx';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 const vehicles = [
   {
@@ -83,7 +83,7 @@ function VehicleSwiper() {
           <div className="w-full flex items-center justify-center">
             <Button className="p-0 mt-[3vh] h-[6vh]">
               <Link
-                to="/"
+                to="/vehicles"
                 className="text-2xl w-[15vw] h-[15vh] flex text-center items-center justify-center"
               >
                 {t('home.carousel.button')}

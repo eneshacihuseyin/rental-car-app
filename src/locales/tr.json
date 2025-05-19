@@ -200,5 +200,17 @@
       "automatic": "Otomatik"
     },
     "button": "Detaylar"
+  },
+  "vehicleDetail": {
+    "text": "Araç Bilgileri",
+    "price": "Ücret",
+    "day": "Gün",
+    "year": "Yıl",
+    "age": "Gereken Yaş",
+    "licence": "Ehliyet Yaşı",
+    "distance": "Mesafe Sınırı",
+    "color": "Renk Çeşitleri",
+    "recommendedTitle": "Bunlar da İlgini Çekebilir",
+    "recommendedText": "Aynı segmentteki bu araçlara göz at — belki de bir sonraki sürüşün burada seni bekliyordur."
   }
 }

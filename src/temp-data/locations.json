@@ -1,0 +1,13 @@
+[
+  { "id": 1, "city_name": "İstanbul", "district_name": "Maltepe" },
+  { "id": 2, "city_name": "İstanbul", "district_name": "Beşiktaş" },
+  { "id": 3, "city_name": "İstanbul", "district_name": "Bakırköy" },
+
+  { "id": 4, "city_name": "Bursa", "district_name": "Osmangazi" },
+  { "id": 5, "city_name": "Bursa", "district_name": "Nilüfer" },
+  { "id": 6, "city_name": "Bursa", "district_name": "Yıldırım" },
+
+  { "id": 7, "city_name": "Ankara", "district_name": "Çankaya" },
+  { "id": 8, "city_name": "Ankara", "district_name": "Keçiören" },
+  { "id": 9, "city_name": "Ankara", "district_name": "Yenimahalle" }
+]

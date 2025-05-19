@@ -1,0 +1,250 @@
+[
+  {
+    "id": 1,
+    "gear_type": "manual",
+    "fuel_type": "hybrid",
+    "person_capacity": 5,
+    "bag_capacity": 309,
+    "color": ["white", "black", "blue", "gray"]
+  },
+  {
+    "id": 2,
+    "gear_type": "automatic",
+    "fuel_type": "hybrid",
+    "person_capacity": 5,
+    "bag_capacity": 251,
+    "color": ["white", "black", "blue", "red"]
+  },
+  {
+    "id": 3,
+    "gear_type": "automatic",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 345,
+    "color": ["white", "black", "blue", "green"]
+  },
+  {
+    "id": 4,
+    "gear_type": "manual",
+    "fuel_type": "hybrid",
+    "person_capacity": 5,
+    "bag_capacity": 420,
+    "color": ["white", "black", "blue", "red"]
+  },
+  {
+    "id": 5,
+    "gear_type": "manual",
+    "fuel_type": "electric",
+    "person_capacity": 5,
+    "bag_capacity": 251,
+    "color": ["white", "black", "red", "green"]
+  },
+  {
+    "id": 6,
+    "gear_type": "automatic",
+    "fuel_type": "hybrid",
+    "person_capacity": 5,
+    "bag_capacity": 328,
+    "color": ["white", "black", "blue", "red"]
+  },
+  {
+    "id": 7,
+    "gear_type": "manual",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 353,
+    "color": ["white", "black", "gray", "red"]
+  },
+  {
+    "id": 8,
+    "gear_type": "automatic",
+    "fuel_type": "diesel",
+    "person_capacity": 5,
+    "bag_capacity": 311,
+    "color": ["white", "black", "blue", "red"]
+  },
+  {
+    "id": 9,
+    "gear_type": "automatic",
+    "fuel_type": "hybrid",
+    "person_capacity": 5,
+    "bag_capacity": 343,
+    "color": ["black", "white", "red", "yellow"]
+  },
+  {
+    "id": 10,
+    "gear_type": "manual",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 454,
+    "color": ["black", "white", "red", "blue"]
+  },
+  {
+    "id": 11,
+    "gear_type": "manual",
+    "fuel_type": "gasoline",
+    "person_capacity": 5,
+    "bag_capacity": 435,
+    "color": ["red", "white", "blue", "black"]
+  },
+  {
+    "id": 12,
+    "gear_type": "automatic",
+    "fuel_type": "electric",
+    "person_capacity": 5,
+    "bag_capacity": 359,
+    "color": ["yellow", "blue", "black", "white"]
+  },
+  {
+    "id": 13,
+    "gear_type": "manual",
+    "fuel_type": "electric",
+    "person_capacity": 5,
+    "bag_capacity": 412,
+    "color": ["red", "blue", "black"]
+  },
+  {
+    "id": 14,
+    "gear_type": "automatic",
+    "fuel_type": "diesel",
+    "person_capacity": 5,
+    "bag_capacity": 485,
+    "color": ["red", "white", "black"]
+  },
+  {
+    "id": 15,
+    "gear_type": "manual",
+    "fuel_type": "diesel",
+    "person_capacity": 5,
+    "bag_capacity": 452,
+    "color": ["blue", "white", "black", "gray"]
+  },
+  {
+    "id": 16,
+    "gear_type": "manual",
+    "fuel_type": "diesel",
+    "person_capacity": 5,
+    "bag_capacity": 497,
+    "color": ["black", "stone", "white", "red"]
+  },
+  {
+    "id": 17,
+    "gear_type": "manual",
+    "fuel_type": "gasoline",
+    "person_capacity": 5,
+    "bag_capacity": 560,
+    "color": ["blue", "white", "black", "gray"]
+  },
+  {
+    "id": 18,
+    "gear_type": "automatic",
+    "fuel_type": "gasoline",
+    "person_capacity": 5,
+    "bag_capacity": 467,
+    "color": ["red", "white", "black"]
+  },
+  {
+    "id": 19,
+    "gear_type": "automatic",
+    "fuel_type": "electric",
+    "person_capacity": 5,
+    "bag_capacity": 475,
+    "color": ["red", "white", "black"]
+  },
+  {
+    "id": 20,
+    "gear_type": "manual",
+    "fuel_type": "hybrid",
+    "person_capacity": 5,
+    "bag_capacity": 551,
+    "color": ["red", "white", "black", "blue"]
+  },
+  {
+    "id": 21,
+    "gear_type": "automatic",
+    "fuel_type": "hybrid",
+    "person_capacity": 5,
+    "bag_capacity": 567,
+    "color": ["blue", "white", "black", "gray"]
+  },
+  {
+    "id": 22,
+    "gear_type": "automatic",
+    "fuel_type": "electric",
+    "person_capacity": 5,
+    "bag_capacity": 649,
+    "color": ["red", "white", "black", "green"]
+  },
+  {
+    "id": 23,
+    "gear_type": "automatic",
+    "fuel_type": "lpg",
+    "person_capacity": 5,
+    "bag_capacity": 564,
+    "color": ["white", "black", "blue", "green"]
+  },
+  {
+    "id": 24,
+    "gear_type": "manual",
+    "fuel_type": "gasoline",
+    "person_capacity": 7,
+    "bag_capacity": 844,
+    "color": ["orange", "black"]
+  },
+  {
+    "id": 25,
+    "gear_type": "manual",
+    "fuel_type": "lpg",
+    "person_capacity": 7,
+    "bag_capacity": 890,
+    "color": ["blue", "black", "red", "gray"]
+  },
+  {
+    "id": 26,
+    "gear_type": "automatic",
+    "fuel_type": "hybrid",
+    "person_capacity": 7,
+    "bag_capacity": 940,
+    "color": ["blue", "black", "red", "white"]
+  },
+  {
+    "id": 27,
+    "gear_type": "manual",
+    "fuel_type": "hybrid",
+    "person_capacity": 7,
+    "bag_capacity": 882,
+    "color": ["blue", "black", "red", "white"]
+  },
+  {
+    "id": 28,
+    "gear_type": "automatic",
+    "fuel_type": "lpg",
+    "person_capacity": 7,
+    "bag_capacity": 1120,
+    "color": ["blue", "black", "red", "white"]
+  },
+  {
+    "id": 29,
+    "gear_type": "manual",
+    "fuel_type": "diesel",
+    "person_capacity": 6,
+    "bag_capacity": 746,
+    "color": null
+  },
+  {
+    "id": 30,
+    "gear_type": "manual",
+    "fuel_type": "gasoline",
+    "person_capacity": 5,
+    "bag_capacity": 1300,
+    "color": null
+  },
+  {
+    "id": 31,
+    "gear_type": "manual",
+    "fuel_type": "gasoline",
+    "person_capacity": 6,
+    "bag_capacity": 1020,
+    "color": ["black", "gray"]
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "minimum_age": "21",
+    "minimum_licence_year": "1",
+    "max_distance": "500"
+  },
+  {
+    "id": 2,
+    "minimum_age": "23",
+    "minimum_licence_year": "2",
+    "max_distance": "500"
+  },
+  {
+    "id": 3,
+    "minimum_age": "25",
+    "minimum_licence_year": "3",
+    "max_distance": "500"
+  },
+  {
+    "id": 4,
+    "minimum_age": "26",
+    "minimum_licence_year": "3",
+    "max_distance": "600"
+  },
+  {
+    "id": 5,
+    "minimum_age": "27",
+    "minimum_licence_year": "5",
+    "max_distance": "400"
+  },
+  {
+    "id": 6,
+    "minimum_age": "27",
+    "minimum_licence_year": "5",
+    "max_distance": "750"
+  }
+]

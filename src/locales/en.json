@@ -201,5 +201,17 @@
       "automatic": "Automatic"
     },
     "button": "Details"
+  },
+  "vehicleDetail": {
+    "text": "Vehicle Details",
+    "price": "Amount",
+    "day": "Day",
+    "year": "Year",
+    "age": "Minimum Age",
+    "licence": "License Held For",
+    "distance": "Mileage Limit",
+    "color": " Color Options",
+    "recommendedTitle": "You Might Also Like",
+    "recommendedText": "Check out these cars from the same segment — maybe your next ride is waiting here."
   }
 }

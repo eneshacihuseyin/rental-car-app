@@ -9,6 +9,7 @@ import { SnackbarProvider } from 'notistack';
 import Signup from '@/pages/Signup.jsx';
 import Vehicles from '@/pages/Vehicles.jsx';
 import VehicleDetail from '@/pages/VehicleDetail.jsx';
+import Campaigns from '@/pages/campaigns.jsx';
 function App() {
   return (
     <ThemeProvider defaultTheme="light" storageKey="theme">
@@ -19,6 +20,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />}></Route>
             <Route path="/vehicles" element={<Vehicles />}></Route>
+            <Route path="/campaigns" element={<Campaigns />}></Route>
             <Route
               path="/vehicles/:brandModel"
               key={location.pathname}

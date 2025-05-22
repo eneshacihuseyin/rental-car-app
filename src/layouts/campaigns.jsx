@@ -22,7 +22,7 @@ function Campaigns() {
           className="h-full flex-1"
           style={{ clipPath: 'polygon(0 0, 100% 0, 100% 100%, 20% 100%)' }}
         >
-          <img src="/campaign-img.jpg" alt="" className="h-full w-full" />
+          <img src="/campaigns/0.jpg" alt="" className="h-full w-full" />
         </div>
       </div>
     </div>

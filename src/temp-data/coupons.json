@@ -1,0 +1,52 @@
+[
+  {
+    "code": "ILKYOLCULUK10",
+    "amount": 10,
+    "start_date": "2025-05-01",
+    "end_date": "2025-12-31",
+    "title_en": "10% Off Your First Ride",
+    "title_tr": "İlk Kiralamaya %10 İndirim",
+    "description_en": "If this is your first time renting with us, enjoy a 10% discount on your trip.",
+    "description_tr": "İlk kez araç kiralıyorsan, bu kuponla %10 indirim seni bekliyor!"
+  },
+  {
+    "code": "ERKENKAP10",
+    "amount": 10,
+    "start_date": "2025-05-01",
+    "end_date": "2025-12-31",
+    "title_en": "Early Bird Gets the Ride",
+    "title_tr": "Erken Rezervasyona Özel",
+    "description_en": "Book at least 7 days in advance and get a 10% discount.",
+    "description_tr": "Rezervasyonunu 7 gün önceden yap, %10 indirim kazan!"
+  },
+  {
+    "code": "YAZTATILI15",
+    "amount": 15,
+    "start_date": "2025-06-01",
+    "end_date": "2025-08-31",
+    "title_en": "Summer Drive Deal",
+    "title_tr": "Yaz Tatiline Özel %15 İndirim",
+    "description_en": "Make your summer holiday more affordable with a 15% discount!",
+    "description_tr": "Yazın keyfini çıkarırken %15 indirimle bütçeni de koru!"
+  },
+  {
+    "code": "DOGUMGUNU20",
+    "amount": 20,
+    "start_date": "2025-01-01",
+    "end_date": "2025-12-31",
+    "title_en": "Birthday Bonus!",
+    "title_tr": "Doğum Gününe Özel İndirim",
+    "description_en": "Celebrate your birthday with a 20% discount on your rental!",
+    "description_tr": "Doğum gününde bizden sana %20 indirim hediyesi!"
+  },
+  {
+    "code": "UZUNYOL5",
+    "amount": 5,
+    "start_date": "2025-05-01",
+    "end_date": "2025-12-31",
+    "title_en": "Long Trip? Small Price!",
+    "title_tr": "Uzun Yola Küçük Fiyat",
+    "description_en": "Get 5% off when you rent for 5 days or more.",
+    "description_tr": "5 gün ve üzeri kiralamalarda %5 indirim seni bekliyor!"
+  }
+]

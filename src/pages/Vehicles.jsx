@@ -33,10 +33,8 @@ function Vehicles() {
         </div>
       </div>
       <div className="w-[100vw] h-[30vh] border-b p-[1vh_0_3vh_2vw] flex flex-col justify-center gap-[2vh]">
-        <div className="title text-4xl font-bold">Araç Filomuz</div>
-        <div className="title text-2xl">
-          Her ihtiyaca uygun, bakımlı ve modern araç filomuzla yolculuğunuzu kolaylaştırıyoruz
-        </div>
+        <div className="title text-4xl font-bold">{t('vehicles.title')}</div>
+        <div className="title text-2xl">{t('vehicles.text')} </div>
       </div>
       <div className="filters flex gap-[3vh] py-[3vh] px-[2vw] ">
         <Button

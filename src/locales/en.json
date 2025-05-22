@@ -173,6 +173,8 @@
     }
   },
   "vehicles": {
+    "title": "Our Vehicles",
+    "text": "We facilitate your journey with our well-maintained and modern fleet of vehicles suitable for every need",
     "all-button": "All",
     "segments": {
       "economy": "Economy",
@@ -213,5 +215,11 @@
     "color": " Color Options",
     "recommendedTitle": "You Might Also Like",
     "recommendedText": "Check out these cars from the same segment — maybe your next ride is waiting here."
+  },
+  "campaigns": {
+    "coupon": "Coupon:",
+    "copy": "Copy",
+    "title": "Special Offers For You",
+    "text": "Experience the joy of driving your dream car at unbeatable prices—exclusive discounts and special offers designed to make every journey comfortable and affordable!"
   }
 }

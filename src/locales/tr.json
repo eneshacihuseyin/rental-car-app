@@ -171,6 +171,8 @@
     }
   },
   "vehicles": {
+    "title": "Araç Filomuz",
+    "text": "Her ihtiyaca uygun, bakımlı ve modern araç filomuzla yolculuğunuzu kolaylaştırıyoruz.",
     "all-button": "Hepsi",
     "segments": {
       "economy": "Ekonomik",
@@ -212,5 +214,11 @@
     "color": "Renk Çeşitleri",
     "recommendedTitle": "Bunlar da İlgini Çekebilir",
     "recommendedText": "Aynı segmentteki bu araçlara göz at — belki de bir sonraki sürüşün burada seni bekliyordur."
+  },
+  "campaigns": {
+    "coupon": "Kupon:",
+    "copy": "Kopyala",
+    "title": "Size Özel Teklifler",
+    "text": "Hayalindeki aracı uygun fiyatlarla kiralamak hiç bu kadar kolay olmamıştı; özel indirimlerimiz ve avantajlı fırsatlarımızla yolculuğunu konforlu ve ekonomik hale getir!"
   }
 }

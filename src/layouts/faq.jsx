@@ -11,8 +11,10 @@ function Faq() {
           <h2 className="font-bold text-3xl">{t('home.sss.title')}</h2>
           <p className="w-3/5 mt-[2vh] text-xl leading-7">{t('home.sss.text')}</p>
           <div className="mt-[4vh]">
-            <Button variant="default" className="p-[3.3vh] text-md rounded-full">
-              <Link to="/frequently-asked-questions">{t('home.sss.button')}</Link>
+            <Button variant="default" className="p-0 text-md rounded-full">
+              <Link className="p-[3.3vh]" to="/frequently-asked-questions">
+                {t('home.sss.button')}
+              </Link>
             </Button>
           </div>
         </div>

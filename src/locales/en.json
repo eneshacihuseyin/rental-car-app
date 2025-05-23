@@ -221,5 +221,49 @@
     "copy": "Copy",
     "title": "Special Offers For You",
     "text": "Experience the joy of driving your dream car at unbeatable prices—exclusive discounts and special offers designed to make every journey comfortable and affordable!"
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "text": "We want to make the process easier for you. Here are frequently asked questions and answers.",
+    "faq": {
+      "question_1": "Can I complete the car rental process online?",
+      "answer_1": "Yes, you can complete the entire rental process online through our website, make the payment, and choose your pickup location.",
+
+      "question_2": "Can I cancel my reservation?",
+      "answer_2": "Yes, you can cancel your reservation for free up to 12 hours before the pickup time.",
+
+      "question_3": "Is insurance included?",
+      "answer_3": "Yes, mandatory traffic insurance is included.",
+
+      "question_4": "What is the rental period?",
+      "answer_4": "The minimum rental period is 1 day. Special offers may be available for long-term rentals.",
+
+      "question_5": "Can I return the car in a different city?",
+      "answer_5": "Yes, returning the car in a different city is possible.",
+
+      "question_6": "Is there a mileage limit?",
+      "answer_6": "There is a daily mileage limit. Details are provided in the vehicle information section.",
+
+      "question_7": "How are the cars sanitized?",
+      "answer_7": "All our vehicles are thoroughly cleaned and sanitized by professional teams after each rental.",
+
+      "question_8": "My license is not international, can I still rent a car?",
+      "answer_8": "If you have a driver's license valid in Turkey, it's not a problem.",
+
+      "question_9": "Will I be charged if I return the car late?",
+      "answer_9": "Delays up to 1 hour are usually tolerated.",
+
+      "question_10": "What documents do I need to rent a car?",
+      "answer_10": "A valid driver's license, an ID, and a credit card are sufficient.",
+
+      "question_11": "What is the minimum age to rent a car?",
+      "answer_11": "The minimum age is usually 21, and you must have held a driver's license for at least 1 year.",
+
+      "question_12": "Do I need to wash the car before returning it?",
+      "answer_12": "No, but if the car is excessively dirty, a cleaning fee may be charged.",
+
+      "question_13": "When and how can I use my coupon?",
+      "answer_13": "You can apply your coupon code on the payment screen after selecting your vehicle and location."
+    }
   }
 }

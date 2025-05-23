@@ -10,15 +10,13 @@ import ThemeToggle from '@/components/ui/theme-toggle.jsx';
 import LanguageToggle from '@/components/ui/language-toggle.jsx';
 import { useTheme } from '@/components/ui/theme-provider.jsx';
 import Footer from '@/layouts/footer.jsx';
-import ScrollToTop from '@/components/ui/scrolToTop.jsx';
 import { IoCalendarOutline, IoPersonOutline } from 'react-icons/io5';
 import { BsFuelPump, BsSuitcaseLg } from 'react-icons/bs';
 import { GiGearStickPattern } from 'react-icons/gi';
 import { FaIdCard, FaLocationDot, FaMoneyBill1Wave } from 'react-icons/fa6';
-import { Autoplay, Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import Animation from '@/layouts/Animation.jsx';
 
 function VehicleDetail() {
   const { brandModel } = useParams();
@@ -40,8 +38,7 @@ function VehicleDetail() {
   };
 
   return (
-    <div className="bg-background">
-      <ScrollToTop />
+    <Animation className="bg-background">
       <div
         className={`header  fixed bg-card dark:bg-card shadow-md top-0 left-0 right-0 z-[1000] flex items-center h-[10vh] transition-colors duration-150 px-[2vw]`}
       >
@@ -235,7 +232,7 @@ function VehicleDetail() {
       </div>
 
       <Footer />
-    </div>
+    </Animation>
   );
 }
 

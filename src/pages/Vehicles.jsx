@@ -9,6 +9,7 @@ import { IoPersonOutline } from 'react-icons/io5';
 import { BsFuelPump, BsSuitcaseLg } from 'react-icons/bs';
 import { Link } from 'react-router-dom';
 import Footer from '@/layouts/footer.jsx';
+import Animation from '@/layouts/Animation.jsx';
 
 function Vehicles() {
   const { t } = useTranslation();
@@ -25,7 +26,7 @@ function Vehicles() {
   };
 
   return (
-    <div className="">
+    <Animation>
       <div className="hero select-none">
         <Header />
         <div className="hero w-[100vw] h-[40vh] bg-[url('/vehicle-list-bg.jpg')] bg-center bg-cover bg-no-repeat flex pt-[15vh] relative">
@@ -137,7 +138,7 @@ function Vehicles() {
         })}
       </div>
       <Footer />
-    </div>
+    </Animation>
   );
 }
 

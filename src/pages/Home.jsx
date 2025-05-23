@@ -6,10 +6,10 @@ import VehicleSwiper from '@/layouts/vehicle-swiper.jsx';
 import Faq from '@/layouts/faq.jsx';
 import Footer from '@/layouts/footer.jsx';
 import Campaigns from '@/layouts/campaigns.jsx';
-
+import Animation from '@/layouts/Animation.jsx';
 function Home() {
   return (
-    <div>
+    <Animation>
       <Hero />
       <Features />
       <Campaigns />
@@ -17,7 +17,7 @@ function Home() {
       <VehicleSwiper />
       <Faq />
       <Footer />
-    </div>
+    </Animation>
   );
 }
 

@@ -5,12 +5,13 @@ import coupons from '../temp-data/coupons.json';
 import { useLanguage } from '@/components/ui/language-provider.jsx';
 import { LuCopy } from 'react-icons/lu';
 import Footer from '@/layouts/footer.jsx';
+import Animation from '@/layouts/Animation.jsx';
 
 function Campaigns() {
   const { t } = useTranslation();
   const { language } = useLanguage();
   return (
-    <div>
+    <Animation>
       <div className="hero select-none">
         <Header />
         <div className="hero w-[100vw] h-[40vh] bg-[url('/campaigns/campaigns-bg.jpg')] bg-center bg-cover bg-no-repeat flex pt-[15vh] relative">
@@ -58,7 +59,7 @@ function Campaigns() {
         ))}
       </div>
       <Footer />
-    </div>
+    </Animation>
   );
 }
 

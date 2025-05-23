@@ -83,11 +83,14 @@ function Login() {
       <div className="absolute top-[2vh] left-[2vw]">
         <Link to="/" className="h-full w-fit flex gap-[1vw] items-center">
           <img
-            src={theme === 'dark' ? '/darkmodelogo.png' : '/lightmodelogo.png'}
+            src={
+              theme === 'dark'
+                ? '/GO-Rentals-Transparent-Dark.png'
+                : '/GO-Rentals-Transparent-Light.png'
+            }
             alt=""
             className="h-[5vh]"
           />
-          <div className="text-3xl">Rental Car</div>
         </Link>
       </div>
       <div className="flex-1 bg-[image:var(--bg-customGradient-3)]"></div>

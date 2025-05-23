@@ -220,5 +220,49 @@
     "copy": "Kopyala",
     "title": "Size Özel Teklifler",
     "text": "Hayalindeki aracı uygun fiyatlarla kiralamak hiç bu kadar kolay olmamıştı; özel indirimlerimiz ve avantajlı fırsatlarımızla yolculuğunu konforlu ve ekonomik hale getir!"
+  },
+  "faqs": {
+    "title": "Sıkça Sorulan Sorular",
+    "text": "Süreci senin için kolaylaştırmak istiyoruz. İşte sık sorulan sorular ve yanıtları.",
+    "faq": {
+      "question_1": "Araç kiralama işlemini online olarak tamamlayabilir miyim?",
+      "answer_1": "Evet, sitemiz üzerinden tüm kiralama işlemini online olarak tamamlayabilir, ödeme yapabilir ve aracı teslim alacağınız yeri seçebilirsiniz.",
+
+      "question_2": "Rezervasyonumu iptal edebilir miyim?",
+      "answer_2": "Evet, rezervasyonunuzu teslim tarihinden 12 saat öncesine kadar ücretsiz iptal edebilirsiniz.",
+
+      "question_3": "Sigorta dahil mi?",
+      "answer_3": "Evet, zorunlu trafik sigortası dahildir.",
+
+      "question_4": "Kiralama süresi ne kadar olabilir?",
+      "answer_4": "Minimum kiralama süresi 1 gündür. Uzun dönem kiralamalar için özel teklifler sunulabilir.",
+
+      "question_5": "Aracı farklı bir şehirde teslim edebilir miyim?",
+      "answer_5": "Evet, farklı bir şehirde teslimat mümkündür.",
+
+      "question_6": "Kilometre sınırı var mı?",
+      "answer_6": "Araçlarda günlük kilometre sınırı vardır. Detaylar araç bilgileri kısmında belirtilir.",
+
+      "question_7": "Araçlar nasıl dezenfekte ediliyor?",
+      "answer_7": "Tüm araçlarımız her kiralama sonrası profesyonel ekipler tarafından detaylı şekilde temizlenir ve dezenfekte edilir.",
+
+      "question_8": "Ehliyetim uluslararası değil, kiralama yapabilir miyim?",
+      "answer_8": "Türkiye'de geçerli bir ehliyete sahipseniz sorun olmaz.",
+
+      "question_9": "Geç kalırsam ceza öder miyim?",
+      "answer_9": "1 saate kadar gecikmeler genellikle hoşgörüyle karşılanır.",
+
+      "question_10": "Araç kiralamak için hangi belgelere ihtiyacım var?",
+      "answer_10": "Geçerli bir sürücü belgesi, kimlik belgesi ve kredi kartı yeterlidir.",
+
+      "question_11": "Araç kiralama yaşı nedir?",
+      "answer_11": "Genellikle minimum yaş sınırı 21’dir ve en az 1 yıllık ehliyet gereklidir.",
+
+      "question_12": "Aracı teslim etmeden önce yıkatmam gerekir mi?",
+      "answer_12": "Hayır, ancak araç aşırı kirli ise temizlik ücreti uygulanabilir.",
+
+      "question_13": "Kuponumu ne zaman ve nasıl kullanabilirim?",
+      "answer_13": "Kupon kodunuzu araç ve lokasyon seçimini tamamladıktan sonra ödeme ekranında kullanabilirsiniz."
+    }
   }
 }

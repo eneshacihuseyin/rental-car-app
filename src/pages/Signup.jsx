@@ -13,13 +13,6 @@ import { DatePicker } from '@/components/ui/date-picker.jsx';
 import { format } from 'date-fns';
 import { Link } from 'react-router-dom';
 import { BiSolidHide, BiSolidShow } from 'react-icons/bi';
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/components/ui/select.jsx';
 
 function Signup() {
   const { t } = useTranslation();
@@ -50,8 +43,6 @@ function Signup() {
         birthdate: z
           .date({ message: t('signup.errors.birthdate.invalid') })
           .transform((val) => format(val, 'dd-MM-yyyy')),
-
-        gender: z.string().min(1, { message: t('signup.errors.gender.required') }),
 
         phone: z
           .string()
@@ -95,15 +86,16 @@ function Signup() {
     clearErrors,
     watch,
   } = useForm({
-    resolver: zodResolver(signupSchema(t)),
+    resolver: zodResolver(signupSchema()),
   });
+
   const clearErrorMessages = useCallback(() => {
     clearErrors();
   }, [clearErrors]);
 
   useEffect(() => {
-    if (errors.email) {
-      const timer = setTimeout(() => clearErrorMessages(), 5000);
+    if (errors) {
+      const timer = setTimeout(() => clearErrorMessages(), 3000);
       return () => clearTimeout(timer);
     }
   }, [errors, clearErrors]);
@@ -119,7 +111,6 @@ function Signup() {
   }, [errors]);
 
   const onSubmit = (data) => {
-    console.log(data);
     enqueueSnackbar(
       <Alert message="✅ Kayıt başarılı! Geri dönüp giriş yapabilirsiniz" type="success" />,
       {
@@ -164,7 +155,7 @@ function Signup() {
           alt=""
           className={cn('absolute transition-all duration-1000 select-none', imgClasses)}
         />
-        <div className="w-2/3 p-[3vw_2vw_3vw_4vw] flex flex-col items-center">
+        <div className="w-2/3 p-[5vw] flex flex-col">
           <div className="title mb-[3vh] text-2xl">
             <h3>{t('signup.title')}</h3>
           </div>
@@ -187,18 +178,6 @@ function Signup() {
                 startYearOffset={80}
                 endYearOffset={18}
               />
-              <Select
-                value={watch('gender')}
-                onValueChange={(gender) => setValue('gender', gender)}
-              >
-                <SelectTrigger className="flex-1">
-                  <SelectValue placeholder={t('signup.gender.title')} />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="male">{t('signup.gender.male')}</SelectItem>
-                  <SelectItem value="female">{t('signup.gender.female')}</SelectItem>
-                </SelectContent>
-              </Select>
             </div>
             <div className="flex gap-[5vh]">
               <Input

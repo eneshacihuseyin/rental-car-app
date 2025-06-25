@@ -5,9 +5,20 @@ html, body {
 html::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+
+.active {
+  color: var(--primary);
+  background: var(--secondary);
+}
 .go167266335.go3844575157{
   padding: 0;
 }
 .go946087465{
   padding: 0 !important;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }

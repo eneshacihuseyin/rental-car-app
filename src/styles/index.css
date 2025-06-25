@@ -3,9 +3,9 @@
 @tailwind utilities;
 @layer base {
   :root {
-    --background: #ffffff;
+    --background:#F0F0F3;
     --foreground: #031428;
-    --card: #F0F0F3;
+    --card: #ffffff;
     --popover: #ffffff;
     --popover-foreground: #031428;
     --primary: #37376c;
@@ -16,8 +16,8 @@
     --muted-foreground: 240 3.8% 46.1%;
     --accent: 240 4.8% 95.9%;
     --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: #851e1e;
+    --destructive-foreground: #ffffff;
     --border: #031428;
     --input: 240 5.9% 90%;
     --ring: 240 10% 3.9%;
@@ -34,8 +34,8 @@
   }
   .dark {
     --background: #121219;
-    --foreground: #ffffff;
-    --card: #212129;
+    --foreground: #ccccdd;
+    --card: #202028;
     --popover: #121219;
     --popover-foreground: #FFFFFF;
     --primary: #5c5cce;
@@ -46,8 +46,8 @@
     --muted-foreground: #eeeeff;
     --accent: #777788;
     --accent-foreground: 0 0% 98%;
-    --destructive: #ff8c8c;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: #832323;
+    --destructive-foreground: #ffffff;
     --bg-customGradient-1 : linear-gradient(90deg,rgba(33, 33, 41, 1) 40%, rgba(33, 33, 41, 0.7) 70%,rgba(33, 33, 41, 0.4) 100%);
     --bg-customGradient-2 : linear-gradient(150deg,rgba(33, 33, 41, 1) 35%, rgba(39, 39, 47, 1) 75%, rgba(45, 45, 53, 1) 100%);
     --bg-customGradient-3 : linear-gradient(150deg, #8a8a9a 20%, #5a5a6a 40%, #2a2a3a 80%);

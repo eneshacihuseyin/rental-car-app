@@ -4,18 +4,20 @@ import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button } from '@/components/ui/button.jsx';
 import { Input } from '@/components/ui/input.jsx';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { enqueueSnackbar } from 'notistack';
 import Alert from '@/components/ui/Alert.jsx';
 import { useTheme } from '@/components/ui/theme-provider.jsx';
 import { cn } from '@/lib/utils.js';
+import { useAuth } from '@/context/AuthContext.jsx';
 
 function Login() {
   const { t } = useTranslation();
   const { theme } = useTheme();
   const [show, setShow] = useState(false);
-
+  const { login } = useAuth();
+  const navigate = useNavigate();
   //Form şeması
   const loginFormSchema = z.object({
     email: z
@@ -73,9 +75,11 @@ function Login() {
     }
   }, [theme, show]);
 
-  function onSubmit(values) {
-    window.alert(values.email + ' , ' + values.password);
-    window.location = '/';
+  function onSubmit() {
+    const token =
+      'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NSwicm9sZSI6ImFkbWluIiwiZW1haWwiOiJidcSfcmEub3p0dXJrQGdvcmVudGFscy5jb20iLCJwYXNzd29yZCI6InBhc3N3b3JkMTIzIiwiaWF0IjoxNzQ4ODA3ODg1fQ.5Od3ZGExxsnh0cXScL-z6yfQZBdObob1aPpHZSs5Wi';
+    login(token);
+    navigate('/');
   }
 
   return (
@@ -110,7 +114,7 @@ function Login() {
               <Input {...register('email')} placeholder={t('login.email')} />
             </div>
             <div className="flex">
-              <Input {...register('password')} placeholder={t('login.password')} />
+              <Input type="password" {...register('password')} placeholder={t('login.password')} />
             </div>
             <Button type="submit" className="w-full">
               Submit

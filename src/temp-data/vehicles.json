@@ -11,6 +11,7 @@
     "location_id": 1
   },
   {
+    "id": 2,
     "segment": "economy",
     "brand": "Citroen",
     "model": "C3",
@@ -21,6 +22,7 @@
     "location_id": 2
   },
   {
+    "id": 3,
     "segment": "economy",
     "brand": "Dacia",
     "model": "Sandero",
@@ -31,6 +33,7 @@
     "location_id": 3
   },
   {
+    "id": 4,
     "segment": "economy",
     "brand": "Fiat",
     "model": "Egea",
@@ -41,6 +44,7 @@
     "location_id": 4
   },
   {
+    "id": 5,
     "segment": "economy",
     "brand": "Hyundai",
     "model": "i20",
@@ -51,6 +55,7 @@
     "location_id": 5
   },
   {
+    "id": 6,
     "segment": "economy",
     "brand": "Renault",
     "model": "Clio",
@@ -61,6 +66,7 @@
     "location_id": 6
   },
   {
+    "id": 8,
     "segment": "economy",
     "brand": "Ford",
     "model": "Fiesta",
@@ -71,6 +77,7 @@
     "location_id": 7
   },
   {
+    "id": 9,
     "segment": "economy",
     "brand": "Peugeot",
     "model": "208",
@@ -81,6 +88,7 @@
     "location_id": 8
   },
   {
+    "id": 10,
     "segment": "economy",
     "brand": "Kia",
     "model": "Rio",
@@ -91,6 +99,7 @@
     "location_id": 9
   },
   {
+    "id": 11,
     "segment": "compact",
     "brand": "Toyota",
     "model": "Corolla",
@@ -101,6 +110,7 @@
     "location_id": 1
   },
   {
+    "id": 12,
     "segment": "compact",
     "brand": "Renault",
     "model": "Megane",
@@ -111,6 +121,7 @@
     "location_id": 2
   },
   {
+    "id": 13,
     "segment": "compact",
     "brand": "Mazda",
     "model": "3",
@@ -121,6 +132,7 @@
     "location_id": 3
   },
   {
+    "id": 14,
     "segment": "compact",
     "brand": "Volkswagen",
     "model": "Golf",
@@ -131,6 +143,7 @@
     "location_id": 4
   },
   {
+    "id": 15,
     "segment": "compact",
     "brand": "Ford",
     "model": "Focus",
@@ -141,6 +154,7 @@
     "location_id": 5
   },
   {
+    "id": 16,
     "segment": "compact",
     "brand": "Peugeot",
     "model": "308",
@@ -151,6 +165,7 @@
     "location_id": 6
   },
   {
+    "id": 17,
     "segment": "compact",
     "brand": "Opel",
     "model": "Astra",
@@ -161,6 +176,7 @@
     "location_id": 7
   },
   {
+    "id": 18,
     "segment": "compact",
     "brand": "Honda",
     "model": "Civic",
@@ -171,6 +187,7 @@
     "location_id": 8
   },
   {
+    "id": 19,
     "segment": "compact",
     "brand": "Skoda",
     "model": "Octavia",
@@ -181,6 +198,7 @@
     "location_id": 9
   },
   {
+    "id": 20,
     "segment": "premium",
     "brand": "Audi",
     "model": "A4",
@@ -191,6 +209,7 @@
     "location_id": 1
   },
   {
+    "id": 21,
     "segment": "premium",
     "brand": "Alfa Romeo",
     "model": "Giulia",
@@ -201,6 +220,7 @@
     "location_id": 2
   },
   {
+    "id": 22,
     "segment": "premium",
     "brand": "Volvo",
     "model": "S60",
@@ -211,6 +231,7 @@
     "location_id": 3
   },
   {
+    "id": 23,
     "segment": "premium",
     "brand": "Jaguar",
     "model": "XE",
@@ -221,6 +242,7 @@
     "location_id": 4
   },
   {
+    "id": 24,
     "segment": "premium",
     "brand": "Infiniti",
     "model": "Q50",
@@ -231,6 +253,7 @@
     "location_id": 5
   },
   {
+    "id": 25,
     "segment": "premium",
     "brand": "BMW",
     "model": "3 Series",
@@ -241,6 +264,7 @@
     "location_id": 6
   },
   {
+    "id": 26,
     "segment": "premium",
     "brand": "Lexus",
     "model": "IS",
@@ -251,6 +275,7 @@
     "location_id": 7
   },
   {
+    "id": 27,
     "segment": "premium",
     "brand": "Genesis",
     "model": "G70",
@@ -261,6 +286,7 @@
     "location_id": 8
   },
   {
+    "id": 28,
     "segment": "premium",
     "brand": "Mercedes Benz",
     "model": "C Series",
@@ -271,6 +297,7 @@
     "location_id": 9
   },
   {
+    "id": 29,
     "segment": "luxury",
     "brand": "Lexus",
     "model": "ES",
@@ -281,6 +308,7 @@
     "location_id": 1
   },
   {
+    "id": 30,
     "segment": "luxury",
     "brand": "BMW",
     "model": "5 Series",

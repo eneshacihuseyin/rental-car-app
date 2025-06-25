@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "code": "ILKYOLCULUK10",
     "amount": 10,
     "start_date": "2025-05-01",
@@ -10,6 +11,7 @@
     "description_tr": "İlk kez araç kiralıyorsan, bu kuponla %10 indirim seni bekliyor!"
   },
   {
+    "id": 2,
     "code": "ERKENKAP10",
     "amount": 10,
     "start_date": "2025-05-01",
@@ -20,6 +22,7 @@
     "description_tr": "Rezervasyonunu 7 gün önceden yap, %10 indirim kazan!"
   },
   {
+    "id": 3,
     "code": "YAZTATILI15",
     "amount": 15,
     "start_date": "2025-06-01",
@@ -30,6 +33,7 @@
     "description_tr": "Yazın keyfini çıkarırken %15 indirimle bütçeni de koru!"
   },
   {
+    "id": 4,
     "code": "DOGUMGUNU20",
     "amount": 20,
     "start_date": "2025-01-01",
@@ -40,6 +44,7 @@
     "description_tr": "Doğum gününde bizden sana %20 indirim hediyesi!"
   },
   {
+    "id": 5,
     "code": "UZUNYOL5",
     "amount": 5,
     "start_date": "2025-05-01",

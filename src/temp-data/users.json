@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "first_name": "Enes",
+    "last_name": "Hacıhüseyin",
+    "personal_id": "15697524868",
+    "birth_date": "25.07.2003",
+    "phone": "5356781618",
+    "email": "e.hacihuseyin03@gmail.com",
+    "password": "password123",
+    "driver_licence_no": "852568",
+    "driver_licence_date": "10.08.2022",
+    "role": "user"
+  },
+  {
+    "id": 2,
+    "first_name": "Ali",
+    "last_name": "Canveren",
+    "personal_id": "15946833129",
+    "birth_date": "19.12.1975",
+    "phone": "5323279486",
+    "email": "ali.canvrn12@gmail.com",
+    "password": "password123",
+    "driver_licence_no": "478932",
+    "driver_licence_date": "20.09.1995",
+    "role": "user"
+  },
+  {
+    "id": 3,
+    "first_name": "Merve",
+    "last_name": "Konuk",
+    "personal_id": "39953669345",
+    "birth_date": "03.01.2005",
+    "phone": "5386621122",
+    "email": "merve.knk203@gmail.com",
+    "password": "password123",
+    "driver_licence_no": "489623",
+    "driver_licence_date": "10.02.2024",
+    "role": "user"
+  },
+  {
+    "id": 4,
+    "first_name": "Nisa",
+    "last_name": "Karamaşa",
+    "personal_id": "34515076249",
+    "birth_date": "25.04.1995",
+    "phone": "5338941274",
+    "email": "nisa.karamasa@hotmail.com",
+    "password": "password123",
+    "driver_licence_no": "895234",
+    "driver_licence_date": "12.07.2014",
+    "role": "user"
+  },
+  {
+    "id": 5,
+    "first_name": "Buğra",
+    "last_name": "Öztürk",
+    "personal_id": "10711453981",
+    "birth_date": "18.08.1999",
+    "phone": "5382596472",
+    "email": "bugra.ozturk@gorentals.com",
+    "password": "password123",
+    "driver_licence_no": "452135",
+    "driver_licence_date": "04.10.2017",
+    "role": "admin"
+  }
+]

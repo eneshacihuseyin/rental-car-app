@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "customer_id": 5,
+    "vehicle_id": 25,
+    "start_date": "23.06.2025",
+    "end_date": "02.07.2025",
+    "pickup_location": 2,
+    "dropoff_location": 1,
+    "price": 80000,
+    "status": "active",
+    "coupon_id": null
+  },
+  {
+    "id": 2,
+    "customer_id": 5,
+    "vehicle_id": 18,
+    "start_date": "12.05.2025",
+    "end_date": "15.05.2025",
+    "pickup_location": 6,
+    "dropoff_location": 4,
+    "price": 18700,
+    "status": "past",
+    "coupon_id": 3
+  },
+  {
+    "id": 3,
+    "customer_id": 5,
+    "vehicle_id": 12,
+    "start_date": "21.06.2025",
+    "end_date": "23.06.2025",
+    "pickup_location": 5,
+    "dropoff_location": 5,
+    "price": 16500,
+    "status": "cancelled",
+    "coupon_id": null
+  },
+  {
+    "id": 4,
+    "customer_id": 1,
+    "vehicle_id": 30,
+    "start_date": "27.06.2025",
+    "end_date": "05.07.2025",
+    "pickup_location": 2,
+    "dropoff_location": 1,
+    "price": 8550,
+    "status": "active",
+    "coupon_id": 1
+  },
+  {
+    "id": 5,
+    "customer_id": 1,
+    "vehicle_id": 28,
+    "start_date": "27.06.2025",
+    "end_date": "28.06.2025",
+    "pickup_location": 4,
+    "dropoff_location": 5,
+    "price": 15200,
+    "status": "active",
+    "coupon_id": 4
+  },
+  {
+    "id": 6,
+    "customer_id": 1,
+    "vehicle_id": 20,
+    "start_date": "23.06.2025",
+    "end_date": "28.06.2025",
+    "pickup_location": 2,
+    "dropoff_location": 1,
+    "price": 48000,
+    "status": "cancelled",
+    "coupon_id": null
+  }
+]

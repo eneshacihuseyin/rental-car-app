@@ -4,6 +4,10 @@
       "login": "Login",
       "vehicles": "Vehicles",
       "campaigns": "Campaigns",
+      "reservation": "Reservation",
+      "profile": "Profile",
+      "myRes": "My reservations",
+      "logout": "Log Out",
       "signup": "Sign Up",
       "theme": {
         "light": "Light",
@@ -264,6 +268,26 @@
 
       "question_13": "When and how can I use my coupon?",
       "answer_13": "You can apply your coupon code on the payment screen after selecting your vehicle and location."
+    }
+  },
+  "profile": {
+    "links": {
+      "profile": "Profile",
+      "myRes": "My Reservations"
+    },
+    "titles": {
+      "personal": "Personal Informations",
+      "driver": "Driver Licence Informations"
+    },
+    "labels": {
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "personalID": "Personal ID Number",
+      "birthdate": "Birth Date",
+      "phone": "Phone",
+      "email": "Email",
+      "licenceDate": "Driver Licence Date",
+      "licenceNo": "Driver Licence No"
     }
   }
 }

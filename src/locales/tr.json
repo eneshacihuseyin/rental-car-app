@@ -4,6 +4,10 @@
       "login": "Giriş Yap",
       "vehicles": "Araçlar",
       "campaigns": "Kampanyalar",
+      "reservation": "Rezervasyon",
+      "profile": "Profil",
+      "myRes": "Rezervasyonlarım",
+      "logout": "Çıkış Yap",
       "signup": "Üye Ol",
       "theme": {
         "light": "Açık",
@@ -263,6 +267,27 @@
 
       "question_13": "Kuponumu ne zaman ve nasıl kullanabilirim?",
       "answer_13": "Kupon kodunuzu araç ve lokasyon seçimini tamamladıktan sonra ödeme ekranında kullanabilirsiniz."
+    }
+  },
+  "profile": {
+    "links": {
+      "profile": "Profil",
+      "myRes": "Kiralamalarım",
+      "changePass": "Şifre Değiştir"
+    },
+    "titles": {
+      "personal": "Kişisel Bilgiler",
+      "driver": "Ehliyet Bilgileri"
+    },
+    "labels": {
+      "firstname": "İsim",
+      "lastname": "Soyisim",
+      "personalID": "Kimlik Numarası",
+      "birthdate": "Doğum Tarihi",
+      "phone": "Telefon",
+      "email": "Eposta",
+      "licenceDate": "Ehliyet Veriliş Tarihi",
+      "licenceNo": "Ehliyet Numarası"
     }
   }
 }
